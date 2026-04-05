@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Chronicle LLM — Australian Historical Texts 1850-1950"
+message: "If you use this model or code in your research, please cite it as follows."
+type: software
+authors:
+  - family-names: Ravipati
+    given-names: Bharadwaj
+year: 2025
+repository-code: https://github.com/ravipatib/ChronicleLLM
+url: https://github.com/ravipatib/ChronicleLLM
+license: MIT
