@@ -1,0 +1,34 @@
+# Data — raw downloads, tokenised binaries, and cleaned intermediates
+data/*/raw/
+data/*/cleaned/
+data/*/train.bin
+data/*/val.bin
+
+# Model artifacts
+*.gguf
+*.pt
+*.bin
+
+# Training output
+out-*/
+wandb/
+
+# HuggingFace exports
+hf_*/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.env
+
+# Virtual environments
+.venv/
+venv/
+llm_env/
+
+# macOS
+.DS_Store
+
+# Local dev tooling
+CLAUDE.md
