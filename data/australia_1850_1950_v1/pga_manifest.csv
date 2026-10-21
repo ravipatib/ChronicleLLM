@@ -1,0 +1,444 @@
+ebook_no,decision,reason,title,author,death_year,url,status
+2400261,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Green Grey Homestead,Steele Rudd,1935,https://gutenberg.net.au/ebooks24/2400261h.html,ok
+2400251,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Miserable Clerk,Steele Rudd,1935,https://gutenberg.net.au/ebooks24/2400251h.html,ok
+2400241,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",On Emu Creek,Steele Rudd,1935,https://gutenberg.net.au/ebooks24/2400241h.html,ok
+2400231,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",We Kaytons,Steele Rudd,1935,https://gutenberg.net.au/ebooks24/2400231h.html,ok
+2400221,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Romance Of Runnibede,Steele Rudd,1935,https://gutenberg.net.au/ebooks24/2400221h.html,ok
+2400201,exclude,already included from gutenberg.org,The Dashwoods,Steele Rudd,1935,https://gutenberg.net.au/ebooks24/2400201h.html,
+2400191,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Grandpa's Selection,Steele Rudd,1935,https://gutenberg.net.au/ebooks24/2400191h.html,ok
+2400181,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Old Homestead,Steele Rudd,1935,https://gutenberg.net.au/ebooks24/2400181h.html,ok
+2400171,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Book of Dan,Steele Rudd,1935,https://gutenberg.net.au/ebooks24/2400171h.html,ok
+2400141,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Duncan McClure,Steele Rudd,1935,https://gutenberg.net.au/ebooks24/2400141h.html,ok
+2400121,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",On an Australian Farm,Steele Rudd,1935,https://gutenberg.net.au/ebooks24/2400121h.html,ok
+2400101,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",From Selection to City,Steele Rudd,1935,https://gutenberg.net.au/ebooks24/2400101h.html,ok
+2400091,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Stocking Our Selection,Steele Rudd,1935,https://gutenberg.net.au/ebooks24/2400091h.html,ok
+2400081,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",In Australia,Steele Rudd,1935,https://gutenberg.net.au/ebooks24/2400081h.html,ok
+2400061,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Poor Parson,Steele Rudd,1935,https://gutenberg.net.au/ebooks24/2400061h.html,ok
+2400051,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Back at Our Selection,Steele Rudd,1935,https://gutenberg.net.au/ebooks24/2400051h.html,ok
+2400041,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Sandy's Selection,Steele Rudd,1935,https://gutenberg.net.au/ebooks24/2400041h.html,ok
+2400031,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",That Droll Lady,Thomas E Spencer,1911,https://gutenberg.net.au/ebooks24/2400031h.html,ok
+2301211,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",For Life and Other Stories,Steele Rudd,1935,https://gutenberg.net.au/ebooks23/2301211h.html,ok
+2301201,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",A Plea for Pure Democracy,Catherine Helen Spence,1910,https://gutenberg.net.au/ebooks23/2301201h.html,ok
+2301191,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Dad in Politics,Steele Rudd,1935,https://gutenberg.net.au/ebooks23/2301191h.html,ok
+2301171,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",A Tale of the Coral Sea,Randolph Bedford,1941,https://gutenberg.net.au/ebooks23/2301171h.html,ok
+2301141,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Blinky Bill Joins the Army,Dorothy Wall,1942,https://gutenberg.net.au/ebooks23/2301141h.html,ok
+2301101,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Stout Fellows,Dorothy Wall,1942,https://gutenberg.net.au/ebooks23/2301101h.html,ok
+2301061,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Bridget and the Bees,Dorothy Wall,1942,https://gutenberg.net.au/ebooks23/2301061h.html,ok
+2301051,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Rainy Day,Dorothy Wall,1942,https://gutenberg.net.au/ebooks23/2301051h.html,ok
+2301031,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",A Tiny Story of Blinky Bill,Dorothy Wall,1942,https://gutenberg.net.au/ebooks23/2301031h.html,ok
+2301021,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Brownie,Dorothy Wall,1942,https://gutenberg.net.au/ebooks23/2301021h.html,ok
+2301011,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Blinky Bill's ABC Book,Dorothy Wall,1942,https://gutenberg.net.au/ebooks23/2301011h.html,ok
+2300991,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Clara Morison,Catherine Helen Spence,1910,https://gutenberg.net.au/ebooks23/2300991h.html,ok
+2300931,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Bindawalla,Thomas E Spencer,1911,https://gutenberg.net.au/ebooks23/2300931h.html,ok
+2300921,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Call of the South,Louis Becke,1913,https://gutenberg.net.au/ebooks23/2300921h.html,ok
+2300901,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Haunted Shanty and Other Stories,T E Spencer,1911,https://gutenberg.net.au/ebooks23/2300901h.html,ok
+2300881,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",A Spring Cleaning,Thomas E Spencer,1911,https://gutenberg.net.au/ebooks23/2300881h.html,ok
+2300851,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",How McDougall Topped the Score,Thomas E Spencer,1911,https://gutenberg.net.au/ebooks23/2300851h.html,ok
+2300841,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Why Doherty Died,Thomas E Spencer,1911,https://gutenberg.net.au/ebooks23/2300841h.html,ok
+2300821,exclude,already included from gutenberg.org,"Edward Barry, South Sea Pearler",Louis Becke,1913,https://gutenberg.net.au/ebooks23/2300821h.html,
+2300691,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Bully Hayes: Buccaneer,Louis Becke,1913,https://gutenberg.net.au/ebooks23/2300691h.html,ok
+2300591,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Rose Lorraine and Other Poems,Henry Kendall,1882,https://gutenberg.net.au/ebooks23/2300591h.html,ok
+2300581,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Bronze Trumpet,Henry Kendall,1882,https://gutenberg.net.au/ebooks23/2300581h.html,ok
+2300571,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Glen of the White Man's Grave,Henry Kendall,1882,https://gutenberg.net.au/ebooks23/2300571h.html,ok
+2300561,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Songs from the Mountains,Henry Kendall,1882,https://gutenberg.net.au/ebooks23/2300561h.html,ok
+2300531,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Leaves from Australian Forests,Henry Kendall,1882,https://gutenberg.net.au/ebooks23/2300531h.html,ok
+2300451,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Poems and Songs,Henry Kendall,1882,https://gutenberg.net.au/ebooks23/2300451h.html,ok
+2300431,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Love is a Fadeless Flower,Victor J Daley,1905,https://gutenberg.net.au/ebooks23/2300431h.html,ok
+2300421,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Wine and Roses,Victor J Daley,1905,https://gutenberg.net.au/ebooks23/2300421h.html,ok
+2300301,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",At Dawn and Dusk,Victor J Daley,1905,https://gutenberg.net.au/ebooks23/2300301h.html,ok
+2300271,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Memoirs of Joseph Holt Vol. 1,Joseph Holt,1826,https://gutenberg.net.au/ebooks23/2300271h.html,ok
+2300251,exclude,already included from gutenberg.org,Marooned on Australia,Ernest Favenc,1908,https://gutenberg.net.au/ebooks23/2300251h.html,
+2300231,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Helen Adair,Louis Becke,1913,https://gutenberg.net.au/ebooks23/2300231h.html,ok
+2300211,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US","The Stories of Ernest Favenc, Volume 7",E Favenc,1908,https://gutenberg.net.au/ebooks23/2300211h.html,ok
+2300201,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Voices of the Desert,Ernest Favenc,1908,https://gutenberg.net.au/ebooks23/2300201h.html,ok
+2300191,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Escapades of Ann,Edward Dyson,1931,https://gutenberg.net.au/ebooks23/2300191h.html,ok
+2300181,exclude,duplicate title within PGA,"The Stories of Ernest Favenc, Volume 6",E Favenc,1908,https://gutenberg.net.au/ebooks23/2300181h.html,
+2300161,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Wild Notes,Charles Tompson,1883,https://gutenberg.net.au/ebooks23/2300161h.html,ok
+2300151,exclude,duplicate title within PGA,"The Stories of Ernest Favenc, Volume 5",E Favenc,1908,https://gutenberg.net.au/ebooks23/2300151h.html,
+2300141,exclude,duplicate title within PGA,"The Stories of Ernest Favenc, Volume 4",E Favenc,1908,https://gutenberg.net.au/ebooks23/2300141h.html,
+2300121,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Golden Shanty (1963),Edward Dyson,1931,https://gutenberg.net.au/ebooks23/2300121h.html,title_mismatch
+2300111,exclude,already included from gutenberg.org,Australian Fairy Tales,Atha Westbury,1901,https://gutenberg.net.au/ebooks23/2300111h.html,
+2300101,exclude,duplicate title within PGA,"The Stories of Ernest Favenc, Volume 3",E Favenc,1908,https://gutenberg.net.au/ebooks23/2300101h.html,
+2300041,exclude,duplicate title within PGA,"The Stories of Ernest Favenc, Volume 2",E Favenc,1908,https://gutenberg.net.au/ebooks22/2300041h.html,
+2300021,exclude,duplicate title within PGA,"The Stories of Ernest Favenc, Volume 1",E Favenc,1908,https://gutenberg.net.au/ebooks22/2300021h.html,
+2300011,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",A/The Golden Shanty (1911 and 1929),Edward Dyson,1931,https://gutenberg.net.au/ebooks22/2300011h.html,failed: HTTP Error 404: Not Found
+2200641,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",A Few Hours in a Far-Off Age,Henrietta Dugdale,1918,https://gutenberg.net.au/ebooks22/2200641h.html,ok
+2200621,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Memoirs of Joseph Holt Vol. 2,Joseph Holt,1826,https://gutenberg.net.au/ebooks22/2200621h.html,ok
+2200591,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Collected Poems of Henry Lawson,Henry Lawson,1922,https://gutenberg.net.au/ebooks22/2200591h.html,ok
+2200581,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Collected Prose,C J Dennis,1938,https://gutenberg.net.au/ebooks22/2200581h.html,ok
+2200461,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",A Fragment of Autobiography,Henry Lawson,1922,https://gutenberg.net.au/ebooks22/2200461h.html,ok
+2200451,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Grandfather's Courtship,Henry Lawson,1922,https://gutenberg.net.au/ebooks22/2200451h.html,ok
+2200441,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Elder Man's Lane,Henry Lawson,1922,https://gutenberg.net.au/ebooks22/2200441h.html,ok
+2200431,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Previous Convictions,Henry Lawson,1922,https://gutenberg.net.au/ebooks22/2200431h.html,ok
+2200261,review,author died 1946-1954: confirm first publication <=1930,Breath of the Jungle,James Francis Dwyer,1952,https://gutenberg.net.au/ebooks22/2200261h.html,
+2200071,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",An Interview and an Obituary,John Arthur Barry,1911,https://gutenberg.net.au/ebooks22/2200071h.html,title_mismatch
+2200051,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",In the Great Deep,John Arthur Barry,1911,https://gutenberg.net.au/ebooks22/2200051h.html,ok
+2200011,review,author died 1946-1954: confirm first publication <=1930,The Spotted Panther,James Francis Dwyer,1952,https://gutenberg.net.au/ebooks22/2200011h.html,
+2100531,review,author died 1946-1954: confirm first publication <=1930,The Bust of Lincoln,James Francis Dwyer,1952,https://gutenberg.net.au/ebooks21/2100531h.html,
+2100521,review,author died 1946-1954: confirm first publication <=1930,The White Waterfall,James Francis Dwyer,1952,https://gutenberg.net.au/ebooks21/2100521h.html,
+2100511,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",We're All Australians Now,Andrew Barton Paterson,1941,https://gutenberg.net.au/ebooks21/2100511h.html,ok
+2100501,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Backblock Ballads and Other Verses,C J Dennis,1938,https://gutenberg.net.au/ebooks21/2100501h.html,ok
+2100481,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Tales of The Dandenongs--Third Series,Hume Cook,1942,https://gutenberg.net.au/ebooks21/2100481h.html,ok
+2100471,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Singing Garden,C J Dennis,1938,https://gutenberg.net.au/ebooks21/2100471h.html,ok
+2100461,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Tower of the Dream,Charles Harpur,1868,https://gutenberg.net.au/ebooks21/2100461h.html,ok
+2100451,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Thoughts,Charles Harpur,1868,https://gutenberg.net.au/ebooks21/2100451h.html,ok
+2100441,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",A Poet's Home,Charles Harpur,1868,https://gutenberg.net.au/ebooks21/2100441h.html,ok
+2100431,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Sea Spray and Smoke Drift,Adam Lindsay Gordon,1870,https://gutenberg.net.au/ebooks21/2100431h.html,ok
+2100421,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Marsupial Bill,James Brunton Stephens,1902,https://gutenberg.net.au/ebooks21/2100421h.html,ok
+2100411,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Australia for the Australians,A B Paterson,1941,https://gutenberg.net.au/ebooks21/2100411h.html,ok
+2100401,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Banjo Paterson Tells His Own Story,A B Paterson,1941,https://gutenberg.net.au/ebooks21/2100401h.html,ok
+2100391,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Waltzing Matilda,Andrew Barton Paterson,1941,https://gutenberg.net.au/ebooks21/2100391h.html,ok
+2100381,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Tales of The Dandenongs--Fourth Series,Hume Cook,1942,https://gutenberg.net.au/ebooks21/2100381h.html,ok
+2100371,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Tales of The Dandenongs--First Series,Hume Cook,1942,https://gutenberg.net.au/ebooks21/2100371h.html,ok
+2100331,exclude,already included from gutenberg.org,Australian Fairy Tales,Hume Cook,1942,https://gutenberg.net.au/ebooks21/2100331h.html,
+2100321,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Tessa--The Trader's Wife,Louis Becke,1913,https://gutenberg.net.au/ebooks21/2100321h.html,ok
+2100131,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Story of Tommy Bear and the Zookies,Dorothy Wall,1942,https://gutenberg.net.au/ebooks21/2100131h.html,ok
+2100101,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Wild Life in Southern Seas,Louis Becke,1913,https://gutenberg.net.au/ebooks21/2100101h.html,ok
+2100041,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",A First Fleet Family,Louis Becke,1913,https://gutenberg.net.au/ebooks21/2100041h.html,ok
+2100021,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Mystery of the Laughlin Islands,Louis Becke,1913,https://gutenberg.net.au/ebooks21/2100021h.html,ok
+2001271,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",His Native Wife,Louis Becke,1913,https://gutenberg.net.au/ebooks20/2001271h.html,ok
+2001261,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Old Samoan Days,Louis Becke,1913,https://gutenberg.net.au/ebooks20/2001261h.html,ok
+2001251,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Poetical Works of Henry Lawson,Henry Lawson,1922,https://gutenberg.net.au/ebooks20/2001251h.html,ok
+2001241,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Dert and Do,Louisa Lawson,1920,https://gutenberg.net.au/ebooks20/2001241h.html,ok
+2001191,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Winnowed Verse,Henry Lawson,1922,https://gutenberg.net.au/ebooks20/2001191h.html,ok
+2001181,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Collected Short Stories Vol 7,Edward S Sorenson,1939,https://gutenberg.net.au/ebooks20/2001181h.html,ok
+2001141,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Alfred And Adalgisa,Victor J Daley,1905,https://gutenberg.net.au/ebooks20/2001141h.html,ok
+2001131,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Four Censored Poems,Henry Lawson,1922,https://gutenberg.net.au/ebooks20/2001131h.html,ok
+2001121,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Selected Poems of Henry Lawson,Henry Lawson,1922,https://gutenberg.net.au/ebooks20/2001121h.html,ok
+2001111,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Water Lily,Henry Lawson,1922,https://gutenberg.net.au/ebooks20/2001111h.html,ok
+2001101,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Free Selector's Daughter,Henry Lawson,1922,https://gutenberg.net.au/ebooks20/2001101h.html,ok
+2001091,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Collected Short Stories Vol 6,Edward S Sorenson,1939,https://gutenberg.net.au/ebooks20/2001091h.html,ok
+2001081,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Collected Short Stories Vol 5,Edward S Sorenson,1939,https://gutenberg.net.au/ebooks20/2001081h.html,ok
+2001051,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Song of the Dardanelles,Henry Lawson,1922,https://gutenberg.net.au/ebooks20/2001051h.html,ok
+2000841,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Settlers and the Emu,Edward S Sorenson,1939,https://gutenberg.net.au/ebooks20/2000841h.html,ok
+2000821,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Golden Nineties,Henry Lawson,1922,https://gutenberg.net.au/ebooks20/2000821h.html,ok
+2000811,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Elder Son,Henry Lawson,1922,https://gutenberg.net.au/ebooks20/2000811h.html,ok
+2000801,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",When I was King,Henry Lawson,1922,https://gutenberg.net.au/ebooks20/2000801h.html,ok
+2000771,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Collected Essays,Henry Lawson,1922,https://gutenberg.net.au/ebooks20/2000771h.html,title_mismatch
+2000751,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",A Coronation Ode,Henry Lawson,1922,https://gutenberg.net.au/ebooks20/2000751h.html,ok
+2000741,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Auld Shop and the New,Henry Lawson,1922,https://gutenberg.net.au/ebooks20/2000741h.html,ok
+2000731,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Joseph's Dreams,Henry Lawson,1922,https://gutenberg.net.au/ebooks20/2000731h.html,ok
+2000721,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Verses Houmorous,Henry Lawson,1922,https://gutenberg.net.au/ebooks20/2000721h.html,title_mismatch
+2000711,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Verses Popular,Henry Lawson,1922,https://gutenberg.net.au/ebooks20/2000711h.html,title_mismatch
+2000701,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Country I Come From,Henry Lawson,1922,https://gutenberg.net.au/ebooks20/2000701h.html,ok
+2000691,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",On the Track and Over the Sliprails,Henry Lawson,1922,https://gutenberg.net.au/ebooks20/2000691h.html,ok
+2000671,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Mateship and The Strangers' Friend,Henry Lawson,1922,https://gutenberg.net.au/ebooks20/2000671h.html,ok
+2000651,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Three Stories,Henry Lawson,1922,https://gutenberg.net.au/ebooks20/2000651h.html,ok
+2000641,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Collected Short Stories Vol 4,Edward S Sorenson,1939,https://gutenberg.net.au/ebooks20/2000641h.html,ok
+2000601,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Collected Short Stories Vol 2,Edward S Sorenson,1939,https://gutenberg.net.au/ebooks20/2000601h.html,ok
+2000371,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Melbourne Riots,David Andrade,1928,https://gutenberg.net.au/ebooks20/2000371h.html,ok
+1901071,review,"prolific author, mostly non-Australian settings: pick by hand",The Whispering Lane,Fergus Hume,1932,https://gutenberg.net.au/ebooks19/1901071h.html,
+1901001,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Soul of Countess Adrian,Rosa Praed,1935,https://gutenberg.net.au/ebooks19/1901001h.html,ok
+1900891,review,author died 1946-1954: confirm first publication <=1930,The White Witch,Jack McLaren,1954,https://gutenberg.net.au/ebooks19/1900891h.html,
+1900741,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Walkabouts Of Wur-Run-Nah,K Langloh Parker,1940,https://gutenberg.net.au/ebooks19/1900741h.html,ok
+1900611,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",More Australian Legendary Tales,K Langloh Parker,1940,https://gutenberg.net.au/ebooks19/1900611h.html,ok
+1900401,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Settlers and Convicts,Alexander Harris,1874,https://gutenberg.net.au/ebooks19/1900401h.html,ok
+1900231,review,"prolific author, mostly non-Australian settings: pick by hand",The King of No-Land,Benjamin Leopold Farjeon,1903,https://gutenberg.net.au/ebooks19/1900231h.html,
+1900181,review,author died 1946-1954: confirm first publication <=1930,The Land of Wherisit,H E Boote,1949,https://gutenberg.net.au/ebooks19/1900181h.html,
+1900101,review,"prolific author, mostly non-Australian settings: pick by hand",When I Lived in Bohemia,Fergus Hume,1932,https://gutenberg.net.au/ebooks19/1900101h.html,
+1900081,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",My Only Murder,Ernest Favenc,1908,https://gutenberg.net.au/ebooks19/1900081h.html,ok
+1900061,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Across Papua,Kenneth Mackay,1935,https://gutenberg.net.au/ebooks19/1900061h.html,ok
+1900011,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Lady Ermetta,Ernest Favenc,1908,https://gutenberg.net.au/ebooks19/1900011h.html,ok
+1800961,review,"prolific author, mostly non-Australian settings: pick by hand",The Year of Miracle,Fergus Hume,1932,https://gutenberg.net.au/ebooks18/1800961h.html,
+1800921,review,"prolific author, mostly non-Australian settings: pick by hand",The Pink Shop,Fergus Hume,1932,https://gutenberg.net.au/ebooks18/1800921h.html,
+1800911,review,"prolific author, mostly non-Australian settings: pick by hand",The Peacock of Jewels,Fergus Hume,1932,https://gutenberg.net.au/ebooks18/1800911h.html,
+1800901,review,"prolific author, mostly non-Australian settings: pick by hand",The Mikado Jewel,Fergus Hume,1932,https://gutenberg.net.au/ebooks18/1800901h.html,
+1800881,review,"prolific author, mostly non-Australian settings: pick by hand",The Chinese Jar,Fergus Hume,1932,https://gutenberg.net.au/ebooks18/1800881h.html,
+1800861,review,"prolific author, mostly non-Australian settings: pick by hand",The Expedition of Captain Flick,Fergus Hume,1932,https://gutenberg.net.au/ebooks18/1800861h.html,
+1800841,review,"prolific author, mostly non-Australian settings: pick by hand",The Amethyst Cross,Fergus Hume,1932,https://gutenberg.net.au/ebooks18/1800841h.html,
+1800791,review,"prolific author, mostly non-Australian settings: pick by hand",The Lost Parchment,Fergus Hume,1932,https://gutenberg.net.au/ebooks18/1800791h.html,
+1800761,review,"prolific author, mostly non-Australian settings: pick by hand",The Sealed Message,Fergus Hume,1932,https://gutenberg.net.au/ebooks18/1800761h.html,
+1800701,review,"prolific author, mostly non-Australian settings: pick by hand",The Purple Fern,Fergus Hume,1932,https://gutenberg.net.au/ebooks18/1800701h.html,
+1800631,review,"prolific author, mostly non-Australian settings: pick by hand",Jonah's Luck,Fergus Hume,1932,https://gutenberg.net.au/ebooks18/1800631h.html,
+1800621,review,"prolific author, mostly non-Australian settings: pick by hand",In Queer Street,Fergus Hume,1932,https://gutenberg.net.au/ebooks18/1800621h.html,
+1800601,review,"prolific author, mostly non-Australian settings: pick by hand",Collected Short Stories,E W Hornung,1921,https://gutenberg.net.au/ebooks18/1800601h.html,
+1800591,review,"prolific author, mostly non-Australian settings: pick by hand",The Scarlet Bat,Fergus Hume,1932,https://gutenberg.net.au/ebooks18/1800591h.html,
+1800571,review,"prolific author, mostly non-Australian settings: pick by hand",Trusty and Well Beloved,E W Hornung,1921,https://gutenberg.net.au/ebooks18/1800571h.html,
+1800561,review,"prolific author, mostly non-Australian settings: pick by hand",The Indian Bangle,Fergus Hume,1932,https://gutenberg.net.au/ebooks18/1800561h.html,
+1800541,review,"prolific author, mostly non-Australian settings: pick by hand",The Millionaire Mystery,Fergus Hume,1932,https://gutenberg.net.au/ebooks18/1800541h.html,
+1800521,review,"prolific author, mostly non-Australian settings: pick by hand",A Traitor in London,Fergus Hume,1932,https://gutenberg.net.au/ebooks18/1800521h.html,
+1800511,review,"prolific author, mostly non-Australian settings: pick by hand",The Gates of Dawn,Fergus Hume,1932,https://gutenberg.net.au/ebooks18/1800511h.html,
+1800501,review,"prolific author, mostly non-Australian settings: pick by hand",The White Prior,Fergus Hume,1932,https://gutenberg.net.au/ebooks18/1800501h.html,
+1800481,review,"prolific author, mostly non-Australian settings: pick by hand",The Island of Fantasy,Fergus Hume,1932,https://gutenberg.net.au/ebooks18/1800481h.html,
+1800461,review,"prolific author, mostly non-Australian settings: pick by hand",The Black Carnation,Fergus Hume,1932,https://gutenberg.net.au/ebooks18/1800461h.html,
+1800451,review,"prolific author, mostly non-Australian settings: pick by hand",A Midnight Mystery,Fergus Hume,1932,https://gutenberg.net.au/ebooks18/1800451h.html,
+1800441,review,"prolific author, mostly non-Australian settings: pick by hand",The Yellow Hunchback,Fergus Hume,1932,https://gutenberg.net.au/ebooks18/1800441h.html,
+1800421,review,"prolific author, mostly non-Australian settings: pick by hand",The Curse,Fergus Hume,1932,https://gutenberg.net.au/ebooks18/1800421h.html,
+1800391,review,"prolific author, mostly non-Australian settings: pick by hand",The Lonely Church,Fergus Hume,1932,https://gutenberg.net.au/ebooks18/1800391h.html,
+1800371,review,"prolific author, mostly non-Australian settings: pick by hand",The Disappearing Eye,Fergus Hume,1932,https://gutenberg.net.au/ebooks18/1800371h.html,
+1800311,review,"prolific author, mostly non-Australian settings: pick by hand",Denis Dent,E W Hornung,1921,https://gutenberg.net.au/ebooks18/1800311h.html,
+1800301,review,author died 1946-1954: confirm first publication <=1930,The Mystery of the Nine Stars,Aidan de Brune,1946,https://gutenberg.net.au/ebooks18/1800301h.html,
+1800291,review,"prolific author, mostly non-Australian settings: pick by hand",The Thousandth Woman,E W Hornung,1921,https://gutenberg.net.au/ebooks18/1800291h.html,
+1800281,review,"prolific author, mostly non-Australian settings: pick by hand",The Young Guard,E W Hornung,1921,https://gutenberg.net.au/ebooks18/1800281h.html,
+1800271,review,"prolific author, mostly non-Australian settings: pick by hand",The Ballad of Ensign Joy,E W Hornung,1921,https://gutenberg.net.au/ebooks18/1800271h.html,
+1800261,review,"prolific author, mostly non-Australian settings: pick by hand",Old Offenders and a Few Old Scores,E W Hornung,1921,https://gutenberg.net.au/ebooks18/1800261h.html,
+1800251,review,"prolific author, mostly non-Australian settings: pick by hand",Charles Reade,E W Hornung,1921,https://gutenberg.net.au/ebooks18/1800251h.html,
+1800211,review,"prolific author, mostly non-Australian settings: pick by hand",The Rogue's March,E W Hornung,1921,https://gutenberg.net.au/ebooks18/1800211h.html,
+1800201,review,"prolific author, mostly non-Australian settings: pick by hand",The Crime Doctor,E W Hornung,1921,https://gutenberg.net.au/ebooks18/1800201h.html,
+1800191,review,"prolific author, mostly non-Australian settings: pick by hand",Witching Hill,E W Hornung,1921,https://gutenberg.net.au/ebooks18/1800191h.html,
+1800181,exclude,already included from gutenberg.org,At Large,E W Hornung,1921,https://gutenberg.net.au/ebooks18/1800181h.html,
+1800161,review,"prolific author, mostly non-Australian settings: pick by hand",Some Persons Unknown,E W Hornung,1921,https://gutenberg.net.au/ebooks18/1800161h.html,
+1800151,review,"prolific author, mostly non-Australian settings: pick by hand",Peccavi,E W Hornung,1921,https://gutenberg.net.au/ebooks18/1800151h.html,
+1800141,review,"prolific author, mostly non-Australian settings: pick by hand",Fathers of Men,E W Hornung,1921,https://gutenberg.net.au/ebooks18/1800141h.html,
+1800121,review,"prolific author, mostly non-Australian settings: pick by hand",The Camera Fiend,E W Hornung,1921,https://gutenberg.net.au/ebooks18/1800121h.html,
+1800111,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Detective's Dream,Mary Fortune,1911,https://gutenberg.net.au/ebooks18/1800111h.html,ok
+1800101,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Monk's Mark,Mary Fortune,1911,https://gutenberg.net.au/ebooks18/1800101h.html,ok
+1800091,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Hereditary,Mary Fortune,1911,https://gutenberg.net.au/ebooks18/1800091h.html,ok
+1800071,review,"prolific author, mostly non-Australian settings: pick by hand",Under Two Skies,E W Hornung,1921,https://gutenberg.net.au/ebooks18/1800071h.html,
+1800061,review,"prolific author, mostly non-Australian settings: pick by hand",At the Pistol's Point,E W Hornung,1921,https://gutenberg.net.au/ebooks18/1800061h.html,
+1800041,review,"prolific author, mostly non-Australian settings: pick by hand",The Shadow of the Rope,E W Hornung,1921,https://gutenberg.net.au/ebooks18/1800041h.html,
+1800031,review,"prolific author, mostly non-Australian settings: pick by hand",The Belle of Toorak,E W Hornung,1921,https://gutenberg.net.au/ebooks18/1800031h.html,
+1800021,review,"prolific author, mostly non-Australian settings: pick by hand",Irralie's Bushranger,E W Hornung,1921,https://gutenberg.net.au/ebooks18/1800021h.html,
+1800011,review,"prolific author, mostly non-Australian settings: pick by hand",Dead Men Tell No Tales,E W Hornung,1921,https://gutenberg.net.au/ebooks18/1800011h.html,
+1701391,exclude,already included from gutenberg.org,The Unbidden Guest,E W Hornung,1921,https://gutenberg.net.au/ebooks17/1701391h.html,
+1701371,exclude,already included from gutenberg.org,My Lord Duke,E W Hornung,1921,https://gutenberg.net.au/ebooks17/1701371h.html,
+1701341,review,"prolific author, mostly non-Australian settings: pick by hand",The Fever of Life,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1701341h.html,
+1701331,review,"prolific author, mostly non-Australian settings: pick by hand",The Turnpike House,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1701331h.html,
+1701321,review,"prolific author, mostly non-Australian settings: pick by hand",The Lady From Nowhere,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1701321h.html,
+1701311,review,"prolific author, mostly non-Australian settings: pick by hand",Young Blood,E W Hornung,1921,https://gutenberg.net.au/ebooks17/1701311h.html,
+1701301,exclude,already included from gutenberg.org,The Boss of Taroomba,E W Hornung,1921,https://gutenberg.net.au/ebooks17/1701301h.html,
+1701281,review,"prolific author, mostly non-Australian settings: pick by hand",The Clock Struck One,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1701281h.html,
+1701271,exclude,already included from gutenberg.org,Tiny Luttrell,E W Hornung,1921,https://gutenberg.net.au/ebooks17/1701271h.html,
+1701261,review,author died 1946-1954: confirm first publication <=1930,The Unlawful Adventure,Aidan de Brune,1946,https://gutenberg.net.au/ebooks17/1701261h.html,
+1701251,review,"prolific author, mostly non-Australian settings: pick by hand",Stingaree,E W Hornung,1921,https://gutenberg.net.au/ebooks17/1701251h.html,
+1701241,review,author died 1946-1954: confirm first publication <=1930,The Dagger and Cord,Aidan de Brune,1946,https://gutenberg.net.au/ebooks17/1701241h.html,
+1701231,exclude,already included from gutenberg.org,A Bride from the Bush,E W Hornung,1921,https://gutenberg.net.au/ebooks17/1701231h.html,
+1701211,review,"prolific author, mostly non-Australian settings: pick by hand",Tracked by a Tattoo,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1701211h.html,
+1701201,review,"prolific author, mostly non-Australian settings: pick by hand",The Red Bicycle,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1701201h.html,
+1701191,review,"prolific author, mostly non-Australian settings: pick by hand",The Spider,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1701191h.html,
+1701181,review,author died 1946-1954: confirm first publication <=1930,The Framing of Inspector Denvers,Aidan de Brune,1946,https://gutenberg.net.au/ebooks17/1701181h.html,
+1701171,review,author died 1946-1954: confirm first publication <=1930,The Pursuits of Mr Peter Pell,Aidan de Brune,1946,https://gutenberg.net.au/ebooks17/1701171h.html,
+1701161,review,"prolific author, mostly non-Australian settings: pick by hand",Lady Jim of Curzon Street,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1701161h.html,
+1701151,review,author died 1946-1954: confirm first publication <=1930,The Flirting Fool,Aidan de Brune,1946,https://gutenberg.net.au/ebooks17/1701151h.html,
+1701141,review,author died 1946-1954: confirm first publication <=1930,The Phantom Launch,Aidan de Brune,1946,https://gutenberg.net.au/ebooks17/1701141h.html,
+1701131,review,author died 1946-1954: confirm first publication <=1930,Dr. Night,Aidan de Brune,1946,https://gutenberg.net.au/ebooks17/1701131h.html,
+1701121,review,"prolific author, mostly non-Australian settings: pick by hand",The Sacred Herb,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1701121h.html,
+1701111,review,"prolific author, mostly non-Australian settings: pick by hand",Whom God Hath Joined,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1701111h.html,
+1701081,review,author died 1946-1954: confirm first publication <=1930,Find This Man,Aidan de Brune,1946,https://gutenberg.net.au/ebooks17/1701081h.html,
+1701061,review,author died 1946-1954: confirm first publication <=1930,Whispering Death,Aidan de Brune,1946,https://gutenberg.net.au/ebooks17/1701061h.html,
+1701051,review,author died 1946-1954: confirm first publication <=1930,The Little Grey Woman,Aidan de Brune,1946,https://gutenberg.net.au/ebooks17/1701051h.html,
+1701041,review,author died 1946-1954: confirm first publication <=1930,Where the Lost Legions Go,Aidan de Brune,1946,https://gutenberg.net.au/ebooks17/1701041h.html,
+1701001,review,author died 1946-1954: confirm first publication <=1930,The Carson Loan Mystery,Aidan de Brune,1946,https://gutenberg.net.au/ebooks17/1701001h.html,
+1700991,review,author died 1946-1954: confirm first publication <=1930,The Green Pearl,Aidan de Brune,1946,https://gutenberg.net.au/ebooks17/1700991h.html,
+1700981,review,author died 1946-1954: confirm first publication <=1930,Saul and the Spinster,Aidan de Brune,1946,https://gutenberg.net.au/ebooks17/1700981h.html,
+1700971,review,author died 1946-1954: confirm first publication <=1930,The Three Snails,Aidan de Brune,1946,https://gutenberg.net.au/ebooks17/1700971h.html,
+1700961,review,author died 1946-1954: confirm first publication <=1930,The Fortune Telling House,Aidan de Brune,1946,https://gutenberg.net.au/ebooks17/1700961h.html,
+1700951,review,author died 1946-1954: confirm first publication <=1930,The League of Five,Aidan de Brune,1946,https://gutenberg.net.au/ebooks17/1700951h.html,
+1700941,review,author died 1946-1954: confirm first publication <=1930,The Grays Manor Mystery,Aidan de Brune,1946,https://gutenberg.net.au/ebooks17/1700941h.html,
+1700931,review,author died 1946-1954: confirm first publication <=1930,The Kahm Syndicate,Aidan de Brune,1946,https://gutenberg.net.au/ebooks17/1700931h.html,
+1700921,review,"prolific author, mostly non-Australian settings: pick by hand",The Vanishing Of Tera,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700921h.html,
+1700911,review,"prolific author, mostly non-Australian settings: pick by hand",The Silver Bullet,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700911h.html,
+1700901,review,author died 1946-1954: confirm first publication <=1930,Douchard's Island,Aidan de Brune,1946,https://gutenberg.net.au/ebooks17/1700901h.html,
+1700861,review,author died 1946-1954: confirm first publication <=1930,The Shadow Crook,Aidan de Brune,1946,https://gutenberg.net.au/ebooks17/1700861h.html,
+1700851,review,"prolific author, mostly non-Australian settings: pick by hand",For the Defence,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700851h.html,
+1700831,review,author died 1946-1954: confirm first publication <=1930,Ten Australian Authors,Aidan de Brune,1946,https://gutenberg.net.au/ebooks17/1700831h.html,
+1700821,review,author died 1946-1954: confirm first publication <=1930,The Murders at Madlands,Aidan de Brune,1946,https://gutenberg.net.au/ebooks17/1700821h.html,
+1700811,review,"prolific author, mostly non-Australian settings: pick by hand",The Red-Headed Man,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700811h.html,
+1700801,review,author died 1946-1954: confirm first publication <=1930,A Stroll Around Australia,Aidan de Brune,1946,https://gutenberg.net.au/ebooks17/1700801h.html,
+1700781,review,"prolific author, mostly non-Australian settings: pick by hand",The Crimson Cryptogram,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700781h.html,
+1700771,review,"prolific author, mostly non-Australian settings: pick by hand",The Black Patch,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700771h.html,
+1700741,review,"prolific author, mostly non-Australian settings: pick by hand",The Rainbow Feather,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700741h.html,
+1700721,review,"prolific author, mostly non-Australian settings: pick by hand",The Wooden Hand,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700721h.html,
+1700701,review,"prolific author, mostly non-Australian settings: pick by hand",The White Room,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700701h.html,
+1700691,review,"prolific author, mostly non-Australian settings: pick by hand",The Yellow Holly,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700691h.html,
+1700681,review,"prolific author, mostly non-Australian settings: pick by hand",The Seaside Girl,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700681h.html,
+1700671,review,"prolific author, mostly non-Australian settings: pick by hand",Monsieur Judas,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700671h.html,
+1700601,review,"prolific author, mostly non-Australian settings: pick by hand",A Creature of the Night,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700601h.html,
+1700561,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Raymond,John Lang,1864,https://gutenberg.net.au/ebooks17/1700561.txt,ok
+1700531,review,"prolific author, mostly non-Australian settings: pick by hand",The Dancer in Red,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700531h.html,
+1700501,review,"prolific author, mostly non-Australian settings: pick by hand",Miss Mephistopheles,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700501h.html,
+1700411,review,"prolific author, mostly non-Australian settings: pick by hand",The Man with a Secret,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700411h.html,
+1700351,review,"prolific author, mostly non-Australian settings: pick by hand",Chronicles Of Faeryland,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700351h.html,
+1700341,review,"prolific author, mostly non-Australian settings: pick by hand",The Gentleman Who Vanished,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700341h.html,
+1700331,review,"prolific author, mostly non-Australian settings: pick by hand",Professor Brankel's Secret,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700331h.html,
+1700311,review,"prolific author, mostly non-Australian settings: pick by hand",The Piccadilly Puzzle,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700311h.html,
+1700301,review,"prolific author, mostly non-Australian settings: pick by hand",The Girl from Malta,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700301h.html,
+1700291,review,"prolific author, mostly non-Australian settings: pick by hand",A Son of Perdition,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700291h.html,
+1700281,review,"prolific author, mostly non-Australian settings: pick by hand",The Solitary Farm,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700281h.html,
+1700271,review,"prolific author, mostly non-Australian settings: pick by hand",The Green Mummy,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700271h.html,
+1700261,review,"prolific author, mostly non-Australian settings: pick by hand",The Opal Serpent,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700261h.html,
+1700251,review,"prolific author, mostly non-Australian settings: pick by hand",The Mandarin's Fan,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700251h.html,
+1700241,review,"prolific author, mostly non-Australian settings: pick by hand",The Red Window,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700241h.html,
+1700231,review,"prolific author, mostly non-Australian settings: pick by hand",The Dwarf's Chamber,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700231h.html,
+1700221,review,"prolific author, mostly non-Australian settings: pick by hand",A Coin of Edward VII,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700221h.html,
+1700211,review,"prolific author, mostly non-Australian settings: pick by hand",The Pagan's Cup,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700211h.html,
+1700151,review,"prolific author, mostly non-Australian settings: pick by hand",A Woman's Burden,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700151h.html,
+1700131,review,"prolific author, mostly non-Australian settings: pick by hand",The Lone Inn,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700131h.html,
+1700121,review,"prolific author, mostly non-Australian settings: pick by hand",The Bishop's Secret,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700121h.html,
+1700101,review,"prolific author, mostly non-Australian settings: pick by hand",The Silent House,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700101h.html,
+1700081,review,"prolific author, mostly non-Australian settings: pick by hand",The Harlequin Opal,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700081h.html,
+1700071,review,"prolific author, mostly non-Australian settings: pick by hand",Red Money,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700071h.html,
+1700051,review,"prolific author, mostly non-Australian settings: pick by hand",The Third Volume,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700051h.html,
+1700041,review,"prolific author, mostly non-Australian settings: pick by hand",The Secret Passage,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700041h.html,
+1700031,exclude,already included from gutenberg.org,Madame Midas,Fergus Hume,1932,https://gutenberg.net.au/ebooks17/1700031h.html,
+1601241,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Newspaper Articles  Book One,Edward S Sorenson,1939,https://gutenberg.net.au/ebooks16/1601241h.html,ok
+1600981,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The City of Sydney,John Arthur Barry,1911,https://gutenberg.net.au/ebooks16/1600981h.html,ok
+1600751,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",One Touch O' Nature,George S Beeby,1942,https://gutenberg.net.au/ebooks16/1600751h.html,ok
+1600741,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Still Waters,George S Beeby,1942,https://gutenberg.net.au/ebooks16/1600741h.html,ok
+1600691,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Banner,George S Beeby,1942,https://gutenberg.net.au/ebooks16/1600691h.html,ok
+1600601,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Too Clever by Half,John Lang,1864,https://gutenberg.net.au/ebooks16/1600601.txt,ok
+1600591,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Joan of the Pilchard,Mary Gaunt,1942,https://gutenberg.net.au/ebooks16/1600591.txt,ok
+1600561,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Forger's Wife,John Lang,1864,https://gutenberg.net.au/ebooks16/1600561.txt,ok
+1600471,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Over The Straits,Louisa Anne Meredith,1895,https://gutenberg.net.au/ebooks16/1600471h.html,ok
+1501281,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Collected Short Stories Vol 1,Edward S Sorenson,1939,https://gutenberg.net.au/ebooks15/1501281h.html,ok
+1500841,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Collected Verse,Edward S Sorenson,1939,https://gutenberg.net.au/ebooks15/1500841h.html,ok
+1500211,review,author died 1946-1954: confirm first publication <=1930,I Recall,Robert Henderson Croll,1947,https://gutenberg.net.au/ebooks15/1500211h.html,
+1500131,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Murty Brown,Edward S Sorenson,1939,https://gutenberg.net.au/ebooks15/1500131h.html,ok
+1500101,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Chips and Splinters,Edward S Sorenson,1939,https://gutenberg.net.au/ebooks15/1500101h.html,ok
+1500081,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",As Luck Would Have It,Edward Dyson,1931,https://gutenberg.net.au/ebooks15/1500081.txt,ok
+1500021,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Deadman's,Mary Gaunt,1942,https://gutenberg.net.au/ebooks15/1500021.txt,ok
+1403141,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Aunt Jo,Edward S Sorenson,1939,https://gutenberg.net.au/ebooks14/1403141.txt,ok
+1402861,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Knocking Round,John Le Gay Brereton,1933,https://gutenberg.net.au/ebooks14/1402861h.html,ok
+1402851,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Remittance Man,Ambrose Pratt,1944,https://gutenberg.net.au/ebooks14/1402851.txt,ok
+1402831,review,author died 1946-1954: confirm first publication <=1930,Along the Track,Robert Henderson Croll,1947,https://gutenberg.net.au/ebooks14/1402831h.html,
+1402821,review,author died 1946-1954: confirm first publication <=1930,The Open Road in Victoria,Robert Henderson Croll,1947,https://gutenberg.net.au/ebooks14/1402821h.html,
+1402811,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Her Assigned Husband,Ambrose Pratt,1944,https://gutenberg.net.au/ebooks14/1402811.txt,ok
+1402781,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Mysterious Investment,Ambrose Pratt,1944,https://gutenberg.net.au/ebooks14/1402781.txt,ok
+1402761,review,author died 1946-1954: confirm first publication <=1930,The Governor's Man,J H M Abbott,1953,https://gutenberg.net.au/ebooks14/1402761.txt,
+1402731,review,author died 1946-1954: confirm first publication <=1930,Sydney Cove,J H M Abbott,1953,https://gutenberg.net.au/ebooks14/1402731.txt,
+1402411,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Uncounted Cost,Mary Gaunt,1942,https://gutenberg.net.au/ebooks14/1402411.txt,ok
+1402381,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",A Wind from the Wilderness,Mary Gaunt,1942,https://gutenberg.net.au/ebooks14/1402381.txt,ok
+1402371,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Mistress Betty Carew,Mary Gaunt,1942,https://gutenberg.net.au/ebooks14/1402371.txt,ok
+1402271,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Ouulaws of Weddin Range,Ambrose Pratt,1944,https://gutenberg.net.au/ebooks14/1402271.txt,title_mismatch
+1402251,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Other Man,Mary Gaunt,1942,https://gutenberg.net.au/ebooks14/1402251.txt,ok
+1402231,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Down in the World,Mary Gaunt,1942,https://gutenberg.net.au/ebooks14/1402231.txt,ok
+1402221,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Man Who Held the Wires,Randolph Bedford,1941,https://gutenberg.net.au/ebooks14/1402221h.html,ok
+1402121,review,author died 1946-1954: confirm first publication <=1930,Red O'Shaughnessy,J H M Abbott,1953,https://gutenberg.net.au/ebooks14/1402121.txt,
+1402081,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Squatter King,Edward S Sorenson,1939,https://gutenberg.net.au/ebooks14/1402081.txt,ok
+1401701,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Emperor and his Double,Ambrose Pratt,1944,https://gutenberg.net.au/ebooks14/1401701.txt,ok
+1401641,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",A Backblocker's Pleasure Trip,Edward S Sorenson,1939,https://gutenberg.net.au/ebooks14/1401641.txt,ok
+1400721,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",On The Wallaby,Edward S Sorenson,1939,https://gutenberg.net.au/ebooks14/1400721.txt,ok
+1400311,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Franks: Duellist,Ambrose Pratt,1944,https://gutenberg.net.au/ebooks14/1400311.txt,ok
+1400191,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",A Daughter of the Bush,Ambrose Pratt,1944,https://gutenberg.net.au/ebooks14/1400191.txt,ok
+1400051,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Counterstroke,Ambrose Pratt,1944,https://gutenberg.net.au/ebooks14/1400051.txt,ok
+1306921,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Squatter's Ward,Edward S Sorenson,1939,https://gutenberg.net.au/ebooks13/1306921.txt,ok
+1306601,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",King of The Rocks,Ambrose Pratt,1944,https://gutenberg.net.au/ebooks13/1306601.txt,ok
+1306541,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Veiled Man,Ambrose Pratt,1944,https://gutenberg.net.au/ebooks13/1306541.txt,ok
+1306531,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Gentleman Jack Bushranger,John Sandes,1938,https://gutenberg.net.au/ebooks13/1306531.txt,ok
+1306461,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Mystery of Murrawang,Edward S Sorenson,1939,https://gutenberg.net.au/ebooks13/1306461.txt,ok
+1306031,review,author died 1946-1954: confirm first publication <=1930,Sally: The Tale of a Currency Lass,J H M Abbott,1953,https://gutenberg.net.au/ebooks13/1306031.txt,
+1305951,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",A Son of the Sea,John Arthur Barry,1911,https://gutenberg.net.au/ebooks13/1305951.txt,ok
+1305801,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Three Years with Thunderbolt,Ambrose Pratt,1944,https://gutenberg.net.au/ebooks13/1305801.txt,ok
+1305571,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Short Stories Volume 2,John Arthur Barry,1911,https://gutenberg.net.au/ebooks13/1305571.txt,title_mismatch
+1305481,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Dan Kelly Outlaw,Ambrose Pratt,1944,https://gutenberg.net.au/ebooks13/1305481.txt,ok
+1305471,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Kookaburra,Edward S Sorenson,1939,https://gutenberg.net.au/ebooks13/1305471.txt,ok
+1305211,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Short Stories Volume 3,John Arthur Barry,1911,https://gutenberg.net.au/ebooks13/1305211.txt,ok
+1304781,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Shearers and Some Sheds,John Arthur Barry,1911,https://gutenberg.net.au/ebooks13/1304781.txt,title_mismatch
+1304171,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Red Lion and Blue Star,John Arthur Barry,1911,https://gutenberg.net.au/ebooks13/1304171.txt,ok
+1303641,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US","Northmost Australia, Volume 2",Robert Logan Jack,1921,https://gutenberg.net.au/ebooks13/1303641h.html,ok
+1303341,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US","Northmost Australia, Volume 1",Robert Logan Jack,1921,https://gutenberg.net.au/ebooks13/1303341h.html,ok
+1302931,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Sea Yarns,John Arthur Barry,1911,https://gutenberg.net.au/ebooks13/1302931.txt,ok
+1302441,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Passage of the Palmetto,John Arthur Barry,1911,https://gutenberg.net.au/ebooks13/1302441.txt,ok
+1302431,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The League of Ancient Mariners,John Arthur Barry,1911,https://gutenberg.net.au/ebooks13/1302431.txt,ok
+1302321,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Ship and Her Master,John Arthur Barry,1911,https://gutenberg.net.au/ebooks13/1302321.txt,ok
+1302101,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",On the Fringe of the Harbor,John Arthur Barry,1911,https://gutenberg.net.au/ebooks13/1302101.txt,ok
+1301781,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",On Ocean Racecourses,John Arthur Barry,1911,https://gutenberg.net.au/ebooks13/1301781.txt,ok
+1301631,exclude,duplicate title within PGA,Short Stories Volume 2,John Arthur Barry,1911,https://gutenberg.net.au/ebooks13/1301631.txt,
+1300761,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Short Stories Volume 1,John Arthur Barry,1911,https://gutenberg.net.au/ebooks13/1300761.txt,ok
+1300671,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Landlopers,John Le Gay Brereton,1933,https://gutenberg.net.au/ebooks13/1300671h.html,ok
+1300361,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",South Sea Shipmates,John Arthur Barry,1911,https://gutenberg.net.au/ebooks13/1300361.txt,ok
+1201631,exclude,already included from gutenberg.org,The Rider of Waroona,George Firth Scott,1935,https://gutenberg.net.au/ebooks12/1201631.txt,
+1201621,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Colonial Born,George Firth Scott,1935,https://gutenberg.net.au/ebooks12/1201621.txt,ok
+1100681,review,"prolific author, mostly non-Australian settings: pick by hand",The Caravan Crime,Fergus Hume,1932,https://gutenberg.net.au/ebooks11/1100681.txt,
+1000621,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Last Lemurian,George Firth Scott,1935,https://gutenberg.net.au/ebooks11/1000621.txt,failed: HTTP Error 404: Not Found
+1000831,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",A Romance of Kangaroo Point,Ernest Favenc,1908,https://gutenberg.net.au/ebooks10/1000831.txt,ok
+1000511,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Call of the Southern Cross,John Sandes,1938,https://gutenberg.net.au/ebooks10/1000511.txt,ok
+1000481,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Designing Fate,John Sandes,1938,https://gutenberg.net.au/ebooks10/1000481.txt,ok
+1000471,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",A Bush Bayard,John Sandes,1938,https://gutenberg.net.au/ebooks10/1000471.txt,ok
+0900701,review,author died 1946-1954: confirm first publication <=1930,Cockatoos,Miles Franklin,1954,https://gutenberg.net.au/ebooks09/0900701.txt,
+0601141,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Northmost Australia,Robert Logan Jack,1921,https://gutenberg.net.au/ebooks06/0601141h.html,ok
+0900281,review,author died 1946-1954: confirm first publication <=1930,My Career Goes Bung,Miles Franklin,1954,https://gutenberg.net.au/ebooks09/0900281.txt,
+0900141,review,author died 1946-1954: confirm first publication <=1930,Gentlemen at Gyang Gyang,Miles Franklin,1954,https://gutenberg.net.au/ebooks09/0900141.txt,
+0900111,review,author died 1946-1954: confirm first publication <=1930,Fools' Harvest,Erle Cox,1950,https://gutenberg.net.au/ebooks09/0900111.txt,
+0801321,review,author died 1946-1954: confirm first publication <=1930,Prelude to Waking,Miles Franklin,1954,https://gutenberg.net.au/ebooks08/0801321.txt,
+0801311,review,author died 1946-1954: confirm first publication <=1930,Old Blastus of Bandicoot,Miles Franklin,1954,https://gutenberg.net.au/ebooks08/0801311.txt,
+0801301,review,author died 1946-1954: confirm first publication <=1930,Bring the Monkey,Miles Franklin,1954,https://gutenberg.net.au/ebooks08/0801301.txt,
+0801281,review,author died 1946-1954: confirm first publication <=1930,Ten Creeks Run,Miles Franklin,1954,https://gutenberg.net.au/ebooks08/0801281.txt,
+0801271,review,author died 1946-1954: confirm first publication <=1930,Back to Bool Bool,Miles Franklin,1954,https://gutenberg.net.au/ebooks08/0801271.txt,
+0800981,review,author died 1946-1954: confirm first publication <=1930,Up the Country,Miles Franklin,1954,https://gutenberg.net.au/ebooks08/0800981.txt,
+0800961,review,author died 1946-1954: confirm first publication <=1930,All that Swagger,Miles Franklin,1954,https://gutenberg.net.au/ebooks08/0800961.txt,
+0800891,review,author died 1946-1954: confirm first publication <=1930,Tommy Cornstalk,J H M Abbott,1953,https://gutenberg.net.au/ebooks08/0800891.txt,
+0701011,review,author died 1946-1954: confirm first publication <=1930,The Missing Angel,Erle Cox,1950,https://gutenberg.net.au/ebooks07/0701011.txt,
+0607911,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Short Stories in Prose and Verse,Henry Lawson,1922,https://gutenberg.net.au/ebooks06/0607911h.html,ok
+0607901,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",For Australia,Henry Lawson,1922,https://gutenberg.net.au/ebooks06/0607901.txt,ok
+0607741,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Collected Poetry,Andrew Barton Paterson,1941,https://gutenberg.net.au/ebooks06/0607741.txt,ok
+0607731,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Collected Prose,Andrew Barton Paterson,1941,https://gutenberg.net.au/ebooks06/0607731.txt,ok
+0607661,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Uncle Piper of Piper's Hill,Tasma,1897,https://gutenberg.net.au/ebooks06/0607661.txt,ok
+0607651,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Penance of Portia James,Tasma,1897,https://gutenberg.net.au/ebooks06/0607651.txt,ok
+0607641,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Bengala,Mary Theresa Vidal,1873,https://gutenberg.net.au/ebooks06/0607641.txt,ok
+0607631,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Tales for the Bush,Mary Theresa Vidal,1873,https://gutenberg.net.au/ebooks06/0607631.txt,ok
+0607621,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",A Sydney Sovereign And Other Tales,Tasma,1897,https://gutenberg.net.au/ebooks06/0607621.txt,ok
+0607611,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",When I was King and Other Verses,Henry Lawson,1922,https://gutenberg.net.au/ebooks06/0607611.txt,ok
+0607601,exclude,already included from gutenberg.org,Verses Popular and Humorous,Henry Lawson,1922,https://gutenberg.net.au/ebooks06/0607601.txt,
+0607591,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Tales of the Early Days,Price Warung,1911,https://gutenberg.net.au/ebooks06/0607591.txt,ok
+0607581,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Half Crown Bob,Price Warung,1911,https://gutenberg.net.au/ebooks06/0607581.txt,ok
+0607571,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Land of the Hibiscus Blossom,Hume Nisbet,1923,https://gutenberg.net.au/ebooks06/0607571.txt,ok
+0607541,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Skyline Riders and Other Verses,Henry Lawson,1922,https://gutenberg.net.au/ebooks06/0607541.txt,title_mismatch
+0607531,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Human Toll,Barbara Baynton,1929,https://gutenberg.net.au/ebooks06/0607531h.html,ok
+0607471,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Hillyars and the Burtons,Henry Kingsley,1876,https://gutenberg.net.au/ebooks06/0607471.txt,ok
+0607451,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Dave's Sweetheart,Mary Gaunt,1942,https://gutenberg.net.au/ebooks06/0607451.txt,ok
+0607411,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Send Round the Hat,Henry Lawson,1922,https://gutenberg.net.au/ebooks06/0607411.txt,ok
+0607401,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Gathered In,Catherine Helen Spence,1910,https://gutenberg.net.au/ebooks06/0607401.txt,ok
+0607291,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",A Sydney-Side Saxon,Rolf Boldrewood,1915,https://gutenberg.net.au/ebooks06/0607291.txt,ok
+0607241,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Romance of a Station,Rosa Praed,1935,https://gutenberg.net.au/ebooks06/0607241.txt,ok
+0607231,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Policy and Passion,Rosa Praed,1935,https://gutenberg.net.au/ebooks06/0607231.txt,ok
+0607211,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Australian Life Black and White,Rosa Praed,1935,https://gutenberg.net.au/ebooks06/0607211.txt,ok
+0607191,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Romance of the Swag,Henry Lawson,1922,https://gutenberg.net.au/ebooks06/0607191.txt,ok
+0607121,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",My Army O My Army! and Other Songs,Henry Lawson,1922,https://gutenberg.net.au/ebooks06/0607121.txt,ok
+0607111,review,"prolific author, mostly non-Australian settings: pick by hand",The Race of Life,Guy Boothby,1905,https://gutenberg.net.au/ebooks06/0607111.txt,
+0607091,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Miner's Right,Rolf Boldrewood,1915,https://gutenberg.net.au/ebooks06/0607091.txt,ok
+0607071,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Moccasins of Silence,Ernest Favenc,1908,https://gutenberg.net.au/ebooks06/0607071.txt,ok
+0607051,review,"prolific author, mostly non-Australian settings: pick by hand",In Strange Company,Guy Boothby,1905,https://gutenberg.net.au/ebooks06/0607051.txt,
+0607001,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Triangles of Life and Other Stories,Henry Lawson,1922,https://gutenberg.net.au/ebooks06/0607001.txt,ok
+0606941,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Doctor's Drive,Mary Gaunt,1942,https://gutenberg.net.au/ebooks06/0606941.txt,ok
+0606851,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Convict Laundress,Mary Theresa Vidal,1873,https://gutenberg.net.au/ebooks06/0606851.txt,ok
+0606311,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Insane Root,Rosa Praed,1935,https://gutenberg.net.au/ebooks06/0606311.txt,ok
+0606101,review,"prolific author, mostly non-Australian settings: pick by hand",Hagar of the Pawn-Shop,Fergus Hume,1932,https://gutenberg.net.au/ebooks06/0606101.txt,
+0605611,review,author died 1946-1954: confirm first publication <=1930,My Crowded Solitude,Jack McLaren,1954,https://gutenberg.net.au/ebooks06/0605611.txt,
+0604821,review,author died 1946-1954: confirm first publication <=1930,Out of the Silence,Erle Cox,1950,https://gutenberg.net.au/ebooks06/0604821.txt,
+0603461,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Shearer's Colt,Andrew Barton Paterson,1941,https://gutenberg.net.au/ebooks06/0603461.txt,ok
+0603451,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Happy Dispatches,Andrew Barton Paterson,1941,https://gutenberg.net.au/ebooks06/0603451.txt,ok
+0603381,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",A Week in the Future,Catherine Helen Spence,1910,https://gutenberg.net.au/ebooks06/0603381.txt,ok
+0603191,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Stretton,Henry Kingsley,1876,https://gutenberg.net.au/ebooks06/0603191.txt,ok
+0602801,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Traces of Crime,Mary Fortune,1911,https://gutenberg.net.au/ebooks06/0602801.txt,ok
+0602791,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",My Lodger,Mary Fortune,1911,https://gutenberg.net.au/ebooks06/0602791.txt,ok
+0602781,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The White Maniac,Mary Fortune,1911,https://gutenberg.net.au/ebooks06/0602781.txt,ok
+0602701,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Swampers,Hume Nisbet,1923,https://gutenberg.net.au/ebooks06/0602701.txt,ok
+0602691,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Old tales of a Young Country,Marcus Clarke,1881,https://gutenberg.net.au/ebooks06/0602691.txt,ok
+0602681,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Long Odds,Marcus Clarke,1881,https://gutenberg.net.au/ebooks06/0602681.txt,ok
+0602671,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Four Stories High,Marcus Clarke,1881,https://gutenberg.net.au/ebooks06/0602671.txt,ok
+0602481,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Vampire Maid,Hume Nisbet,1923,https://gutenberg.net.au/ebooks06/0602481.txt,ok
+0602471,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Demon Spell,Hume Nisbet,1923,https://gutenberg.net.au/ebooks06/0602471.txt,ok
+0602401,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Haunted Author,Marcus Clarke,1881,https://gutenberg.net.au/ebooks06/0602401.txt,ok
+0601621,review,"prolific author, mostly non-Australian settings: pick by hand",Dr Nikola Returns,Guy Boothby,1905,https://gutenberg.net.au/ebooks06/0601621.txt,
+0601611,review,"prolific author, mostly non-Australian settings: pick by hand",The Lust of Hate,Guy Boothby,1905,https://gutenberg.net.au/ebooks06/0601611.txt,
+0601601,review,"prolific author, mostly non-Australian settings: pick by hand",Farewell Nikola,Guy Boothby,1905,https://gutenberg.net.au/ebooks06/0601601.txt,
+0601591,review,"prolific author, mostly non-Australian settings: pick by hand",A Bid for Fortune,Guy Boothby,1905,https://gutenberg.net.au/ebooks06/0601591.txt,
+0601581,review,"prolific author, mostly non-Australian settings: pick by hand",A Professor of Egyptology,Guy Boothby,1905,https://gutenberg.net.au/ebooks06/0601581.txt,
+0601571,review,"prolific author, mostly non-Australian settings: pick by hand",A Strange Goldfield,Guy Boothby,1905,https://gutenberg.net.au/ebooks06/0601571h.html,
+0601221,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Human Repetends,Marcus Clarke,1881,https://gutenberg.net.au/ebooks06/0601221.txt,ok
+0601171,review,"prolific author, mostly non-Australian settings: pick by hand",Pharos the Egyptian,Guy Boothby,1905,https://gutenberg.net.au/ebooks06/0601171h.html,
+0600691,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Tales of the Austral Tropics,Ernest Favenc,1908,https://gutenberg.net.au/ebooks06/0600691.txt,ok
+0501031,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Fact'ry 'Ands,Edward Dyson,1931,https://gutenberg.net.au/ebooks05/0501031.txt,ok
+0501021,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Benno and Some of the Push,Edward Dyson,1931,https://gutenberg.net.au/ebooks05/0501021.txt,ok
+0501011,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Below and on Top and Other Stories,Edward Dyson,1931,https://gutenberg.net.au/ebooks05/0501011.txt,ok
+0500971,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Rhymes from the Mines,Edward Dyson,1931,https://gutenberg.net.au/ebooks05/0500971.txt,ok
+0500941,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Rose of Spadgers,C J Dennis,1938,https://gutenberg.net.au/ebooks05/0500941.txt,ok
+0500931,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Jim of The Hills,C J Dennis,1938,https://gutenberg.net.au/ebooks05/0500931.txt,ok
+0500921,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",The Moods of Ginger Mick,C J Dennis,1938,https://gutenberg.net.au/ebooks05/0500921.txt,ok
+0500911,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Backblock Ballads and Later Verses,C J Dennis,1938,https://gutenberg.net.au/ebooks05/0500911.txt,ok
+0500691,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Doreen,C J Dennis,1938,https://gutenberg.net.au/ebooks05/0500691h.html,ok
+0500671,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Pacific Tales,Louis Becke,1913,https://gutenberg.net.au/ebooks05/0500671.txt,ok
+0500131,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Our New Selection,Steele Rudd,1935,https://gutenberg.net.au/ebooks05/0500131.txt,ok
+0400711,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Australian Tales,Marcus Clarke,1881,https://gutenberg.net.au/ebooks04/0400711.txt,ok
+0400591,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Blinky Bill Grows Up,Dorothy Wall,1942,https://gutenberg.net.au/ebooks04/0400591.txt,ok
+0400581,include,"author died <=1945: PD in AU; not URAA-restored, so PD in US",Blinky Bill and Nutsy,Dorothy Wall,1942,https://gutenberg.net.au/ebooks04/0400581.txt,ok
+0301271,review,author died 1946-1954: confirm first publication <=1930,Inheritors,Brian Penton,1951,https://gutenberg.net.au/ebooks03/0301271.txt,
+0200851,review,author died 1946-1954: confirm first publication <=1930,Landtakers,Brian Penton,1951,https://gutenberg.net.au/ebooks02/0200851.txt,
+0200721,review,"prolific author, mostly non-Australian settings: pick by hand",The Mystery Queen,Fergus Hume,1932,https://gutenberg.net.au/ebooks02/0200721.txt,
+0100301,review,author died 1946-1954: confirm first publication <=1930,Here's Another,Lennie Lower,1947,https://gutenberg.net.au/ebooks01/0100301.txt,
+0100141,exclude,already included from gutenberg.org,Bush Studies,Barbara Baynton,1929,https://gutenberg.net.au/ebooks01/0100141.txt,
+0100081,review,author died 1946-1954: confirm first publication <=1930,Here's Luck,Lennie Lower,1947,https://gutenberg.net.au/ebooks01/0100081.txt,
+0100071,review,author died 1946-1954: confirm first publication <=1930,Ultima Thule,Henry Handel Richardson,1946,https://gutenberg.net.au/ebooks01/0100071.txt,
+0100061,review,author died 1946-1954: confirm first publication <=1930,The Way Home,Henry Handel Richardson,1946,https://gutenberg.net.au/ebooks01/0100061.txt,
+0100051,exclude,already included from gutenberg.org,Australia Felix,Henry Handel Richardson,1946,https://gutenberg.net.au/ebooks01/0100051.txt,

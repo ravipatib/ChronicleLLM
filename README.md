@@ -7,7 +7,7 @@ No fine-tuning. No modern weights. Built entirely from historical Australian wri
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-MPS%20%7C%20CUDA-red.svg)](https://pytorch.org)
 [![Architecture](https://img.shields.io/badge/Architecture-GPT--2%20Style-green.svg)](https://github.com/karpathy/nanoGPT)
-[![Status](https://img.shields.io/badge/Status-v0%20Complete-brightgreen.svg)]()
+[![Status](https://img.shields.io/badge/Status-v1%20dataset%20ready-blue.svg)]()
 [![Trained Locally](https://img.shields.io/badge/Trained-100%25%20Locally-orange.svg)]()
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-chronicle--llm--v0-yellow.svg)](https://huggingface.co/Gnayo/chronicle-llm-v0)
 
@@ -65,8 +65,13 @@ The training data covers:
 - Exploration - Leichhardt, Sturt, Eyre, Burke and Wills
 - Literature - Lawson, Paterson, Clarke, Baynton, Franklin
 
-What it doesn't know: anything after 1950. No television, no
-Cold War, no modern Australia. It simply hasn't seen any of that.
+v1 adds a much wider shelf: colonial histories, settlers' memoirs, travel
+accounts, cookery and household books, sermons, law reports, and the
+Commonwealth Parliament's own debates from Federation through two world wars,
+in the words of Barton, Deakin, Hughes, Lyons, Curtin and Menzies.
+
+What it doesn't know: anything after 1950 (v1 stops at 1945). No television,
+no Cold War, no modern Australia. It simply hasn't seen any of that.
 
 ---
 
@@ -105,6 +110,8 @@ from any external knowledge source.
 
 Trained entirely locally. No cloud GPU, no rented compute.
 
+### v0
+
 The full run took around 5 hours. Memory usage peaked at about 19GB.
 PyTorch MPS backend (Apple Silicon) or CUDA both work fine for this
 model size. Anyone with a reasonably modern machine can reproduce this.
@@ -114,8 +121,24 @@ Parameters      : 30M
 Steps           : 20,000
 Final train loss: 2.81
 Final val loss  : 4.59
-Training data   : 55MB / 141 texts / ~14M tokens
+Training data   : 55MB / 139 files / ~14M tokens (only ~70 files valid, see below)
 ```
+
+The large gap between train and val loss has two causes. The model saw its
+14M tokens about 23 times over, and the validation set was the alphabetically
+last 10% of files, many of which turned out to be non-Australian books.
+
+### v1 (planned)
+
+```
+Parameters      : ~51M (8 layers, 8 heads, 512 embedding)
+Context length  : 512 tokens
+Steps           : 5,000 x 65,536 tokens (~2 epochs)
+Training data   : 678.5MB / 2,299 documents / 160.6M tokens
+Estimated time  : ~9 hours on an M4 Pro (estimate, not yet measured)
+```
+
+Config: [`config/train_chronicle_v1.py`](config/train_chronicle_v1.py).
 
 ### Training Loss Curve
 ![Training Loss](australia_1850_1950_v0/graphs/training_loss_curve.png)
@@ -133,17 +156,41 @@ Training data   : 55MB / 141 texts / ~14M tokens
 
 ## Training data
 
-All texts are public domain from [Project Gutenberg](https://gutenberg.org)
-and [Project Gutenberg Australia](https://gutenberg.net.au). Every file
-was checked to be Australian content from within the 1850–1950 window.
+### v1
 
-141 texts, 55MB cleaned, roughly 14M tokens.
+Every text is public domain in **both Australia and the United States**:
+every author died before 1955 (Australian law), and the work is on
+gutenberg.org or was first published by 1930 (US law). Australia has no
+text-and-data-mining exception, so training doesn't change that test.
+Anything that couldn't be shown to pass was left out.
+
+| Source | Documents | Cleaned | Share |
+|---|---|---|---|
+| [Project Gutenberg](https://gutenberg.org) (proofread) | 356 | 145.5MB | 21% |
+| [Project Gutenberg Australia](https://gutenberg.net.au) (proofread) | 232 | 56.1MB | 8% |
+| [Internet Archive](https://archive.org) scanned books (OCR, quality-filtered) | 907 | 334.4MB | 49% |
+| Commonwealth Hansard 1901–1945 (sample) | 804 | 142.5MB | 21% |
+| **Total** | **2,299** | **678.5MB** | **160.6M tokens** |
+
+Every book was selected from catalogue metadata and checked after download,
+not typed in by hand. The full licensing rule, sources, build steps and review
+lists are in the [v1 dataset card](data/australia_1850_1950_v1/README.md).
 
 Authors include Henry Lawson, Banjo Paterson, Marcus Clarke, Rolf Boldrewood,
 Barbara Baynton, Steele Rudd, C.J. Dennis, Price Warung, Ada Cambridge,
-Miles Franklin, Joseph Furphy, C.E.W. Bean, John Monash, Watkin Tench,
-David Collins, K. Langloh Parker, Rafaello Carboni, and exploration
+Rosa Praed, Tasma, Mary Gaunt, Edward Dyson, Louis Becke, Joseph Furphy,
+Henry Handel Richardson, John Monash, Watkin Tench, David Collins,
+K. Langloh Parker, Raffaello Carboni, James Bonwick, and exploration
 journals from Leichhardt, Sturt, Eyre, Giles, and Burke & Wills among others.
+
+### A correction about v0
+
+An audit for v1 (`data/australia_1850_1950_v1/v0_audit.csv`) found that 66 of
+v0's 139 files were the wrong book: hand-typed Gutenberg IDs pointed at
+Wodehouse, Balzac, Conan Doyle, Darwin and several non-English texts. Another 9
+are still in copyright in Australia (Mary Grant Bruce, Ethel Turner, Norman
+Lindsay, Jeannie Gunn and others), even though they're public domain in the US.
+About 70 v0 files were valid. v1 fixes this.
 
 ---
 
@@ -151,31 +198,22 @@ journals from Leichhardt, Sturt, Eyre, Giles, and Burke & Wills among others.
 
 Built on [nanoGPT](https://github.com/karpathy/nanoGPT) by Andrej Karpathy.
 
-```
-Architecture    : GPT-2 decoder-only transformer
-Parameters      : 30M
-Layers          : 6
-Attention heads : 6
-Embedding dim   : 384
-Context length  : 256 tokens
-Tokenizer       : GPT-2 BPE (tiktoken)
-Vocab size      : 50,304
-```
+GPT-2 style decoder-only transformer, GPT-2 BPE tokenizer (tiktoken),
+vocab size 50,304.
 
-Training config:
+| | v0 | v1 |
+|---|---|---|
+| Parameters | 30M | ~51M |
+| Layers | 6 | 8 |
+| Attention heads | 6 | 8 |
+| Embedding dim | 384 | 512 |
+| Context length | 256 | 512 |
+| Effective batch | 64 × 256 tokens | 128 × 512 tokens |
+| Steps | 20,000 | 5,000 |
+| Learning rate | 1e-3 → 1e-4 | 6e-4 → 6e-5, 200 warmup steps |
+| Config | [`train_chronicle_v0.py`](config/train_chronicle_v0.py) | [`train_chronicle_v1.py`](config/train_chronicle_v1.py) |
 
-```python
-n_layer    = 6
-n_head     = 6
-n_embd     = 384
-block_size = 256
-batch_size = 16
-gradient_accumulation_steps = 4
-max_iters      = 20000
-learning_rate  = 1e-3
-device         = 'mps'  # or 'cuda'
-dtype          = 'float32'
-```
+Both run on `device = 'mps'` (Apple Silicon) or `'cuda'`, in float32.
 
 ---
 
@@ -187,6 +225,8 @@ Pretrained v0 weights are on HuggingFace:
 Two formats available:
 - `model.safetensors` - HuggingFace format, load via transformers
 - `chronicle_v0.gguf` - GGUF format, load directly in LM Studio or llama.cpp
+
+v1 weights will be published once training is done.
 
 ---
 
@@ -204,25 +244,38 @@ This project requires nanoGPT as a dependency:
 git clone https://github.com/karpathy/nanoGPT
 ```
 
-Download and prepare data:
-
-Download training texts manually from [Project Gutenberg Australia](https://gutenberg.net.au)
-and [Project Gutenberg](https://gutenberg.org). Place `.txt` files in
-`data/australia_1850_1950/raw/` then run:
+Build the v1 dataset (downloads take roughly 1–2 hours; every step can be
+re-run and skips what it already has):
 
 ```bash
-python clean_texts.py
-python data/australia_1850_1950/prepare.py
+curl -o pg_catalog.csv https://www.gutenberg.org/cache/epub/feeds/pg_catalog.csv
+curl -o gutindex_aus.txt https://gutenberg.net.au/gutindex_aus.txt
+
+python scripts/v1/build_gutenberg_manifest.py pg_catalog.csv
+python scripts/v1/fetch_gutenberg.py
+python scripts/v1/fetch_pga.py gutindex_aus.txt --download
+python scripts/v1/build_ia_manifest.py pg_catalog.csv
+python scripts/v1/fetch_ia.py
+python scripts/v1/fetch_hansard.py
+python scripts/v1/clean_v1.py
+python data/australia_1850_1950_v1/prepare.py
 ```
 
-Train:
+The committed manifests (`data/australia_1850_1950_v1/*_manifest.csv`) record
+every include/exclude decision and its reason.
+
+Train v1:
 
 ```bash
 cd nanoGPT
-ln -s ../data/australia_1850_1950 data/australia_1850_1950
+ln -s ../data/australia_1850_1950_v1 data/australia_1850_1950_v1
 # Windows users: copy the folder manually instead of using symlink
-python train.py ../config/train_chronicle_v0.py
+python train.py ../config/train_chronicle_v1.py
 ```
+
+The v0 pipeline (`clean_texts.py`, `data/australia_1850_1950/prepare.py`,
+`config/train_chronicle_v0.py`) is kept for reference. Its file list isn't
+published, and the audit above found much of it was wrong, so build v1 instead.
 
 Generate:
 
@@ -258,16 +311,21 @@ curl http://localhost:1234/v1/completions \
 
 | Version | Params | Data | Tokens | Steps | Val Loss | Status |
 |---------|--------|------|--------|-------|----------|--------|
-| v0 | 30M | 55MB / 141 texts | 14M | 20,000 | 4.59 | Done |
-| v1 | TBD | TBD | TBD | TBD | TBD | Planned |
+| v0 | 30M | 55MB / 139 files (~70 valid) | 14M | 20,000 | 4.59 | Done |
+| v1 | ~51M | 678.5MB / 2,299 docs | 160.6M | 5,000 | TBD | Dataset ready, training next |
 | v2 | TBD | TBD | TBD | TBD | TBD | Roadmap |
 
 ---
 
 ## What's next
 
-- v1 with more data, targeting 200MB with cleaner preprocessing
-- Trove newspaper integration (National Library of Australia)
+- ~~v1 with more data, targeting 200MB with cleaner preprocessing~~
+  Dataset done: 678.5MB, licence-checked. Training next.
+- Trove newspaper integration (National Library of Australia). Trove's API
+  terms don't allow building a training corpus, so this needs written
+  permission from the NLA first.
+- Work through the v1 review lists (~1,300 books whose author dates still
+  need checking)
 - Custom tokenizer trained on Australian English
 - Temporal bias analysis
 - Eventually a proper conversational interface
@@ -279,15 +337,24 @@ curl http://localhost:1234/v1/completions \
 - [nanoGPT](https://github.com/karpathy/nanoGPT) by Andrej Karpathy - architecture
 - [TimeCapsuleLLM](https://github.com/haykgrigo3/TimeCapsuleLLM) by Hayk Grigorian - STT concept
 - [TinyStories](https://arxiv.org/abs/2305.07759) - small models on curated data
-- [Project Gutenberg Australia](https://gutenberg.net.au) - the data source
-- [Trove](https://trove.nla.gov.au) - future data source
+
+---
+
+## Data sources
+
+- [Project Gutenberg](https://gutenberg.org) and [Project Gutenberg Australia](https://gutenberg.net.au) - proofread texts
+- [Internet Archive](https://archive.org) - scanned books
+- Commonwealth Hansard 1901–1945, Parliament of Australia, via
+  [Tim Sherratt's GLAM Workbench harvest](https://github.com/wragge/hansard-xml)
+- [Trove](https://trove.nla.gov.au) - future data source, pending NLA permission
 
 ---
 
 ## Contributing
 
 Issues and PRs welcome. Particularly interested in:
-- More verified Australian 1850–1950 texts
+- More verified Australian 1850–1950 texts, especially author death dates for
+  the `review` rows in the v1 manifests
 - Better cleaning scripts
 - Evaluation approaches for historical LMs
 
@@ -312,7 +379,11 @@ Please open an issue before submitting a PR.
 
 ## License
 
-MIT. See [LICENSE](LICENSE) for details.
+Code: MIT. See [LICENSE](LICENSE) for details.
+
+Training texts are public domain in Australia and the United States (see the
+[v1 dataset card](data/australia_1850_1950_v1/README.md)). Hansard text is
+courtesy of the Parliament of Australia.
 
 Copyright (c) 2026 Bharadwaj Ravipati
 
