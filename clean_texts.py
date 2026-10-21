@@ -78,10 +78,51 @@ def clean(text):
     text = re.sub(r'\[Page \d+\]', '', text, flags=re.IGNORECASE)
     text = re.sub(r'^\s*\d+\s*$', '', text, flags=re.MULTILINE)
 
-    # 8. Remove lines that are just dashes/equals/stars
+    # 8. Remove lines that are just dashes/equals/stars (OCR artifacts)
     text = re.sub(r'^\s*[-=*_]{4,}\s*$', '', text, flags=re.MULTILINE)
+    text = re.sub(r'^[_\-\*\=]{4,}$', '', text, flags=re.MULTILINE)
 
-    # 9. Normalise whitespace
+    # 9. Remove HTML tags
+    text = re.sub(r'<[^>]+>', '', text)
+
+    # 10. Remove pipe table rows (military rosters, indexes)
+    lines = text.split('\n')
+    lines = [l for l in lines if l.count('|') < 2]
+    text = '\n'.join(lines)
+
+    # 11. Remove military/legal abbreviation lines (e.g. D.C.O.C.C., W.A.M.C.)
+    lines = text.split('\n')
+    lines = [l for l in lines if not re.match(r'^\s*([A-Z]\.){2,}', l)]
+    text = '\n'.join(lines)
+
+    # 12. Remove repeated CHAPTER heading spam (table of contents leaking in)
+    text = re.sub(
+        r'(CHAPTER\s+[IVXLCDM\d]+\.?\s*\n){3,}', '', text, flags=re.MULTILINE
+    )
+
+    # 13. Remove all-caps index lines (short lines entirely uppercase, e.g. "DALRYMPLE.")
+    lines = text.split('\n')
+    lines = [
+        l for l in lines
+        if not (len(l.strip()) < 40 and re.match(r'^[A-Z\s]{3,}\.?\s*$', l.strip()) and l.strip())
+    ]
+    text = '\n'.join(lines)
+
+    # 14. Remove lines that are just numbers and dots (index page references)
+    lines = text.split('\n')
+    lines = [l for l in lines if not re.match(r'^\s*[\.\s\d]{5,}\s*$', l)]
+    text = '\n'.join(lines)
+
+    # 15. Remove duplicate consecutive lines
+    lines = text.split('\n')
+    deduped = []
+    for i, l in enumerate(lines):
+        if i == 0 or not l.strip() or l != lines[i - 1]:
+            deduped.append(l)
+    lines = deduped
+    text = '\n'.join(lines)
+
+    # 16. Normalise whitespace
     text = re.sub(r'\n{3,}', '\n\n', text)
     text = re.sub(r' {2,}', ' ', text)
     text = re.sub(r'\t', ' ', text)

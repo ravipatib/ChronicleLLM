@@ -1,5 +1,6 @@
 # Data — raw downloads, tokenised binaries, and cleaned intermediates
 data/*/raw/
+data/*/raw_rejected/
 data/*/cleaned/
 data/*/train.bin
 data/*/val.bin
