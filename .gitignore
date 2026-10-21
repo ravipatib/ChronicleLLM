@@ -33,3 +33,6 @@ llm_env/
 
 # Local dev tooling
 CLAUDE.md
+
+# Kaggle upload staging (copies of the tokenised data)
+kaggle/upload/

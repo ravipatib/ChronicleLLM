@@ -165,6 +165,7 @@ pg_id,status,manifest_title,header_title,bytes
 25058,ok,Foster's Letter of Marque: A Tale of Old Sydney 1901,Foster's Letter of Marque: A Tale of Old Sydney,61069
 25059,ok,In the Far North 1901,In the Far North,63025
 25060,ok,Officer and Man 1901,Officer and Man,54434
+25079,ok,Queensland Cousins,Queensland Cousins,348637
 25105,ok,Pâkia 1901,Pâkia,40271
 25106,ok,"""The Gallant, Good Riou"", and Jack Renton 1901","""The Gallant, Good Riou"", and Jack Renton",52701
 25107,ok,Sarréo 1901,Sarréo,43223
@@ -218,6 +219,7 @@ pg_id,status,manifest_title,header_title,bytes
 38691,ok,Down Under with the Prince,Down Under with the Prince,466622
 38791,ok,The Bushranger's Secret,The Bushranger's Secret,205908
 39322,ok,"Australian Pictures, Drawn with Pen and Pencil","Australian Pictures, Drawn with Pen and Pencil",442894
+39475,ok,Night Fall in the Ti-Tree,Night Fall in the Ti-Tree,23105
 39495,ok,Our First Half-Century: A Review of Queensland Progress Based Upon Official Information,Our First Half-Century: A Review of Queensland Progress Based Upon Official Information,844708
 39718,ok,The Wanderings of a Spiritualist,The Wanderings of a Spiritualist,503043
 40659,ok,Materfamilias,Materfamilias,357442
@@ -235,6 +237,7 @@ pg_id,status,manifest_title,header_title,bytes
 45391,ok,Southerly Busters,Southerly Busters,164590
 45504,ok,Where Art Begins,Where Art Begins,561604
 45919,ok,Grif: A Story of Australian Life,Grif: A Story of Australian Life,671736
+45960,ok,A Naval Venture: The War Story of an Armoured Cruiser,A Naval Venture: The War Story of an Armoured Cruiser,740312
 46097,ok,Trooper Bluegum at the Dardanelles Descriptive Narratives of the More Desperate Engagements on the Gallipoli Peninsula,Trooper Bluegum at the Dardanelles,324959
 46597,ok,In Search of the Castaways A Romantic Narrative of the Loss of Captain Grant of the Brig Britannia and of the Adventures of His Children and Friends in His Discovery and Rescue,In Search of the Castaways,864839
 46703,ok,Australia in Arms A Narrative of the Australasian Imperial Force and Their Achievement at Anzac,Australia in Arms,780692
@@ -271,6 +274,7 @@ pg_id,status,manifest_title,header_title,bytes
 55652,ok,"A Colonial Reformer, Vol. 2 (of 3)","A Colonial Reformer, Vol. 2 (of 3)",483505
 56284,ok,"The Legend of Kupirri, or, The Red Kangaroo An Aboriginal Tradition of the Port Lincoln Tribe","The Legend of Kupirri, or, The Red Kangaroo",49336
 56693,ok,The Boy in the Bush,The Boy in the Bush,238822
+57026,ok,The Last of the Bushrangers: An Account of the Capture of the Kelly Gang,The Last of the Bushrangers: An Account of the Capture of the Kelly Gang,435335
 57142,ok,"How Does a Tree Grow? Or, Botany for Young Australians","How Does a Tree Grow? Or, Botany for Young Australians",76751
 57161,ok,"Notes of a Gold Digger, and Gold Diggers' Guide","Notes of a Gold Digger, and Gold Diggers' Guide",99470
 57162,ok,"A Narrative of the Melancholy Wreck of the ""Dunbar,"" Merchant Ship, on the South Head of Port Jackson, August 20th, 1875","A Narrative of the Melancholy Wreck of the ""Dunbar,"" Merchant Ship, on the South Head of Port Jackson, August 20th, 1875",82240

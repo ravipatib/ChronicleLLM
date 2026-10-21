@@ -16,6 +16,9 @@ Licensing rule (must hold in BOTH jurisdictions):
     published before 1955 and Crown works older than 50 years are out of copyright.
   - Unknown death year but born 1850 or earlier -> included (would have to have
     lived past 105 to still be in copyright).
+  - Other unknown death years are looked up in author_deaths.csv (written by
+    resolve_ia_authors.py from Wikidata, checked against Library of Congress);
+    only status=resolved rows count.
   - Any other unknown death year -> "review", never auto-included.
 
 Selection rule:
@@ -34,6 +37,7 @@ import sys
 
 REPO_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 OUT_PATH = os.path.join(REPO_DIR, "data", "australia_1850_1950_v1", "gutenberg_manifest.csv")
+RESOLVED = os.path.join(REPO_DIR, "data", "australia_1850_1950_v1", "author_deaths.csv")
 
 AU_DEATH_CUTOFF = 1955   # contributor must have died before this year
 EARLIEST_BIRTH  = 1700   # keeps out classical/medieval texts that mention Australia in subjects
@@ -93,6 +97,18 @@ def contributors(authors_field):
         yield name, birth, death, role
 
 
+def load_resolved():
+    """name -> death year (None for 'born <=1850') for status=resolved / died_1955_or_later rows."""
+    if not os.path.exists(RESOLVED):
+        return {}
+    return {r["creator"]: (int(r["death_year"]) if r["death_year"] else None)
+            for r in csv.DictReader(open(RESOLVED, encoding="utf-8"))
+            if r["status"] in ("resolved", "died_1955_or_later")}
+
+
+RESOLVED_DEATHS = load_resolved()
+
+
 def classify(row):
     """Return (decision, reason, max_death, min_birth, match) for a catalogue row."""
     blob = " ".join([row["Subjects"], row["LoCC"], row["Bookshelves"]])
@@ -112,8 +128,13 @@ def classify(row):
     births = [c[1] for c in people if c[1]]
     min_birth = min(births) if births else ""
     unknown = []
+    resolved = []
     for name, birth, death, _ in people:
         if death is not None:
+            continue
+        if name.strip() in RESOLVED_DEATHS:
+            if RESOLVED_DEATHS[name.strip()] is not None:
+                resolved.append((name, RESOLVED_DEATHS[name.strip()]))
             continue
         if ANONYMOUS.match(name.strip()) or GOVERNMENT.match(name.strip()):
             continue
@@ -122,11 +143,12 @@ def classify(row):
         unknown.append(name)
     if unknown:
         return "review", "death year unknown: " + "; ".join(unknown), "", min_birth, match
-    known = [c[2] for c in people if c[2] is not None]
+    known = [c[2] for c in people if c[2] is not None] + [d for _, d in resolved]
     max_death = max(known) if known else ""
 
     if max_death and max_death >= AU_DEATH_CUTOFF:
-        late = [c[0] for c in people if c[2] and c[2] >= AU_DEATH_CUTOFF]
+        late = [c[0] for c in people if c[2] and c[2] >= AU_DEATH_CUTOFF] + \
+               [n for n, d in resolved if d >= AU_DEATH_CUTOFF]
         return "exclude", "AU copyright: contributor died >=1955: " + "; ".join(late), max_death, min_birth, match
     if min_birth and min_birth < EARLIEST_BIRTH:
         return "exclude", "out of era: contributor born before 1700", max_death, min_birth, match

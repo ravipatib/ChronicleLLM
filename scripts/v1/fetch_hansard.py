@@ -24,8 +24,7 @@ Usage:
 import json
 import os
 import re
-import time
-import urllib.request
+import subprocess
 import xml.etree.ElementTree as ET
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
@@ -39,21 +38,15 @@ RAW_URL    = "https://raw.githubusercontent.com/wragge/hansard-xml/master/{path}
 USER_AGENT = "ChronicleLLM-dataset-builder (+https://github.com/ravipatib/ChronicleLLM)"
 
 FIRST_YEAR, LAST_YEAR = 1901, 1945
-TARGET_MB  = 150
+TARGET_MB  = 400
 TEXT_RATIO = 0.43   # measured over the full sample: text is ~43% of the XML size
 WORKERS    = 4
 
 
 def get(url):
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    for attempt in range(3):
-        try:
-            with urllib.request.urlopen(req, timeout=120) as resp:
-                return resp.read()
-        except (TimeoutError, OSError):
-            if attempt == 2:
-                raise
-            time.sleep(5 * (attempt + 1))
+    # curl, not urllib: urllib's reads of the 3MB tree listing were cut short on some connections
+    return subprocess.run(["curl", "-sSfL", "--retry", "4", "--retry-all-errors", "--max-time", "300",
+                           "-A", USER_AGENT, url], check=True, capture_output=True).stdout
 
 
 def pick_files():
