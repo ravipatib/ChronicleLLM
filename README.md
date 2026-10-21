@@ -399,7 +399,7 @@ Please open an issue before submitting a PR.
 ## Citation
 
 ```bibtex
-@misc{chroniclellm2025,
+@misc{chroniclellm2026,
   author    = {Ravipati, Bharadwaj},
   title     = {Chronicle LLM: A Language Model Trained from Scratch
                on Australian Historical Texts 1850--1950},
