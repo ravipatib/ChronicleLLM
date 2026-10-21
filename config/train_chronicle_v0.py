@@ -8,7 +8,7 @@ Pass this file to nanoGPT's train.py:
     python train.py ../config/train_chronicle_v0.py
 
 Set `device` below to match your hardware:
-    'mps'  — Apple Silicon
+    'mps'  — PyTorch MPS backend
     'cuda' — NVIDIA GPU
     'cpu'  — fallback (very slow)
 
