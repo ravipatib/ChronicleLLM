@@ -7,8 +7,8 @@ No fine-tuning. No modern weights. Built entirely from historical Australian wri
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-MPS%20%7C%20CUDA-red.svg)](https://pytorch.org)
 [![Architecture](https://img.shields.io/badge/Architecture-GPT--2%20Style-green.svg)](https://github.com/karpathy/nanoGPT)
-[![Status](https://img.shields.io/badge/Status-v1%20dataset%20ready-blue.svg)]()
-[![Trained Locally](https://img.shields.io/badge/Trained-100%25%20Locally-orange.svg)]()
+[![Status](https://img.shields.io/badge/Status-v1%20training-blue.svg)]()
+[![Compute](https://img.shields.io/badge/Compute-no%20paid%20GPU-orange.svg)]()
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-chronicle--llm--v0-yellow.svg)](https://huggingface.co/Gnayo/chronicle-llm-v0)
 
 ---
@@ -66,9 +66,10 @@ The training data covers:
 - Literature - Lawson, Paterson, Clarke, Baynton, Franklin
 
 v1 adds a much wider shelf: colonial histories, settlers' memoirs, travel
-accounts, cookery and household books, sermons, law reports, and the
-Commonwealth Parliament's own debates from Federation through two world wars,
-in the words of Barton, Deakin, Hughes, Lyons, Curtin and Menzies.
+accounts, cookery and household books, sermons, law reports, verse and novels
+printed in Melbourne and Sydney, and the Commonwealth Parliament's own debates
+from Federation through two world wars, in the words of Barton, Deakin, Hughes,
+Lyons, Curtin and Menzies.
 
 What it doesn't know: anything after 1950 (v1 stops at 1945). No television,
 no Cold War, no modern Australia. It simply hasn't seen any of that.
@@ -108,13 +109,13 @@ from any external knowledge source.
 
 ## Training
 
-Trained entirely locally. No cloud GPU, no rented compute.
+No paid compute. v0 was trained on a single local GPU; v1 is trained on a free
+Kaggle GPU notebook.
 
 ### v0
 
 The full run took around 5 hours. Memory usage peaked at about 19GB.
-PyTorch MPS backend (Apple Silicon) or CUDA both work fine for this
-model size. Anyone with a reasonably modern machine can reproduce this.
+PyTorch on CUDA or MPS both work fine for this model size. Anyone with a reasonably modern machine can reproduce this.
 
 ```
 Parameters      : 30M
@@ -128,28 +129,36 @@ The large gap between train and val loss has two causes. The model saw its
 14M tokens about 23 times over, and the validation set was the alphabetically
 last 10% of files, many of which turned out to be non-Australian books.
 
-### v1 (planned)
+### v1 (training)
 
 ```
-Parameters      : ~51M (8 layers, 8 heads, 512 embedding)
+Parameters      : 72.8M (11 layers, 9 heads, 576 embedding)
 Context length  : 512 tokens
-Steps           : 5,000 x 65,536 tokens (~2 epochs)
-Training data   : 678.5MB / 2,299 documents / 160.6M tokens
-Estimated time  : ~9 hours on an M4 Pro (estimate, not yet measured)
+Steps           : 10,800 x 65,536 tokens (3 epochs)
+Training data   : 1,075MB / 4,157 documents / 247.8M tokens
+Hardware        : free Kaggle notebook, 2x NVIDIA T4, float16
 ```
+
+Why 73M and not bigger: a model wants roughly 20 training tokens per
+parameter, and repeating data helps only up to about 4 epochs (Muennighoff et
+al. 2023). With ~235M licence-safe training tokens, ~73M parameters over 3
+epochs is about the limit before the model starts memorising books rather than
+learning the language. A much larger model needs much more text, which means
+Trove (see What's next).
 
 Config: [`config/train_chronicle_v1.py`](config/train_chronicle_v1.py).
+Notebook: [`kaggle/chronicle_v1_train.ipynb`](kaggle/chronicle_v1_train.ipynb).
 
-### Training Loss Curve
+### v0 training loss curve
 ![Training Loss](australia_1850_1950_v0/graphs/training_loss_curve.png)
 
-### Perplexity Over Training
+### v0 perplexity over training
 ![Perplexity](australia_1850_1950_v0/graphs/perplexity_curve.png)
 
-### Training Speed
+### v0 training speed
 ![Speed](australia_1850_1950_v0/graphs/training_speed.png)
 
-### Model Comparison
+### v0 model comparison
 ![Comparison](australia_1850_1950_v0/graphs/model_comparison.png)
 
 ---
@@ -166,20 +175,23 @@ Anything that couldn't be shown to pass was left out.
 
 | Source | Documents | Cleaned | Share |
 |---|---|---|---|
-| [Project Gutenberg](https://gutenberg.org) (proofread) | 356 | 145.5MB | 21% |
-| [Project Gutenberg Australia](https://gutenberg.net.au) (proofread) | 232 | 56.1MB | 8% |
-| [Internet Archive](https://archive.org) scanned books (OCR, quality-filtered) | 907 | 334.4MB | 49% |
-| Commonwealth Hansard 1901–1945 (sample) | 804 | 142.5MB | 21% |
-| **Total** | **2,299** | **678.5MB** | **160.6M tokens** |
+| [Project Gutenberg](https://gutenberg.org) (proofread) | 359 | 147.0MB | 14% |
+| [Project Gutenberg Australia](https://gutenberg.net.au) (proofread) | 281 | 71.4MB | 7% |
+| [Internet Archive](https://archive.org) scanned books (OCR, quality-filtered) | 1,380 | 463.9MB | 43% |
+| Commonwealth Hansard 1901–1945 (sample) | 2,137 | 393.2MB | 37% |
+| **Total** | **4,157** | **1,075.4MB** | **247.8M tokens** |
 
 Every book was selected from catalogue metadata and checked after download,
-not typed in by hand. The full licensing rule, sources, build steps and review
+not typed in by hand. Authors without dates in the catalogue were looked up in
+Wikidata and the Library of Congress, and counted only when every plausible
+match died before 1955 (`author_deaths.csv` keeps the evidence for each one). The full licensing rule, sources, build steps and review
 lists are in the [v1 dataset card](data/australia_1850_1950_v1/README.md).
 
 Authors include Henry Lawson, Banjo Paterson, Marcus Clarke, Rolf Boldrewood,
 Barbara Baynton, Steele Rudd, C.J. Dennis, Price Warung, Ada Cambridge,
 Rosa Praed, Tasma, Mary Gaunt, Edward Dyson, Louis Becke, Joseph Furphy,
-Henry Handel Richardson, John Monash, Watkin Tench, David Collins,
+Henry Handel Richardson, Miles Franklin (titles first published by 1930),
+E. W. Hornung, Fergus Hume, John Monash, Watkin Tench, David Collins,
 K. Langloh Parker, Raffaello Carboni, James Bonwick, and exploration
 journals from Leichhardt, Sturt, Eyre, Giles, and Burke & Wills among others.
 
@@ -203,17 +215,16 @@ vocab size 50,304.
 
 | | v0 | v1 |
 |---|---|---|
-| Parameters | 30M | ~51M |
-| Layers | 6 | 8 |
-| Attention heads | 6 | 8 |
-| Embedding dim | 384 | 512 |
+| Parameters | 30M | 72.8M |
+| Layers | 6 | 11 |
+| Attention heads | 6 | 9 |
+| Embedding dim | 384 | 576 |
 | Context length | 256 | 512 |
 | Effective batch | 64 × 256 tokens | 128 × 512 tokens |
-| Steps | 20,000 | 5,000 |
-| Learning rate | 1e-3 → 1e-4 | 6e-4 → 6e-5, 200 warmup steps |
+| Steps | 20,000 | 10,800 |
+| Learning rate | 1e-3 → 1e-4 | 6e-4 → 6e-5, 300 warmup steps |
+| Precision / hardware | float32, single GPU | float16, 2× T4 (Kaggle) |
 | Config | [`train_chronicle_v0.py`](config/train_chronicle_v0.py) | [`train_chronicle_v1.py`](config/train_chronicle_v1.py) |
-
-Both run on `device = 'mps'` (Apple Silicon) or `'cuda'`, in float32.
 
 ---
 
@@ -226,7 +237,9 @@ Two formats available:
 - `model.safetensors` - HuggingFace format, load via transformers
 - `chronicle_v0.gguf` - GGUF format, load directly in LM Studio or llama.cpp
 
-v1 weights will be published once training is done.
+v1 weights will be published once training is done, exported with
+[`scripts/v1/export_hf.py`](scripts/v1/export_hf.py) (Hugging Face
+safetensors, checked to give the same logits as the nanoGPT checkpoint).
 
 ---
 
@@ -244,7 +257,7 @@ This project requires nanoGPT as a dependency:
 git clone https://github.com/karpathy/nanoGPT
 ```
 
-Build the v1 dataset (downloads take roughly 1–2 hours; every step can be
+Build the v1 dataset (downloads take roughly 2–3 hours; every step can be
 re-run and skips what it already has):
 
 ```bash
@@ -252,25 +265,44 @@ curl -o pg_catalog.csv https://www.gutenberg.org/cache/epub/feeds/pg_catalog.csv
 curl -o gutindex_aus.txt https://gutenberg.net.au/gutindex_aus.txt
 
 python scripts/v1/build_gutenberg_manifest.py pg_catalog.csv
+python scripts/v1/build_ia_manifest.py pg_catalog.csv
+python scripts/v1/resolve_ia_authors.py
+python scripts/v1/build_gutenberg_manifest.py pg_catalog.csv
+python scripts/v1/build_ia_manifest.py pg_catalog.csv
 python scripts/v1/fetch_gutenberg.py
 python scripts/v1/fetch_pga.py gutindex_aus.txt --download
-python scripts/v1/build_ia_manifest.py pg_catalog.csv
 python scripts/v1/fetch_ia.py
 python scripts/v1/fetch_hansard.py
 python scripts/v1/clean_v1.py
 python data/australia_1850_1950_v1/prepare.py
 ```
 
-The committed manifests (`data/australia_1850_1950_v1/*_manifest.csv`) record
-every include/exclude decision and its reason.
+The committed manifests (`data/australia_1850_1950_v1/*_manifest.csv`),
+`author_deaths.csv` and `pga_title_decisions.csv` record every
+include/exclude decision and its reason.
 
-Train v1:
+Train v1 on a free Kaggle GPU: upload `train.bin`, `val.bin` and
+`config/train_chronicle_v1.py` as a **private** Kaggle dataset, then run
+[`kaggle/chronicle_v1_train.ipynb`](kaggle/chronicle_v1_train.ipynb) with
+GPU T4 x2 (instructions are in the notebook). Or on your own GPU:
 
 ```bash
 cd nanoGPT
 ln -s ../data/australia_1850_1950_v1 data/australia_1850_1950_v1
 # Windows users: copy the folder manually instead of using symlink
-python train.py ../config/train_chronicle_v1.py
+torchrun --standalone --nproc_per_node=1 train.py ../config/train_chronicle_v1.py
+```
+
+Without a CUDA GPU add `--device=mps --dtype=float32 --compile=False` (or
+`--device=cpu`); this is much slower than a CUDA GPU.
+
+Ask v1 questions (it's a base model, so questions are framed as Hansard
+question time and it answers in period style, with no guarantee of facts):
+
+```bash
+python chat_v1.py --ckpt out-chronicle-v1/ckpt.pt
+# You: Will the Government build a railway to Port Augusta?
+# Mr DEAKIN: ...
 ```
 
 The v0 pipeline (`clean_texts.py`, `data/australia_1850_1950/prepare.py`,
@@ -312,7 +344,7 @@ curl http://localhost:1234/v1/completions \
 | Version | Params | Data | Tokens | Steps | Val Loss | Status |
 |---------|--------|------|--------|-------|----------|--------|
 | v0 | 30M | 55MB / 139 files (~70 valid) | 14M | 20,000 | 4.59 | Done |
-| v1 | ~51M | 678.5MB / 2,299 docs | 160.6M | 5,000 | TBD | Dataset ready, training next |
+| v1 | 72.8M | 1,075MB / 4,157 docs | 247.8M | 10,800 | TBD | Training |
 | v2 | TBD | TBD | TBD | TBD | TBD | Roadmap |
 
 ---
@@ -320,12 +352,14 @@ curl http://localhost:1234/v1/completions \
 ## What's next
 
 - ~~v1 with more data, targeting 200MB with cleaner preprocessing~~
-  Dataset done: 678.5MB, licence-checked. Training next.
+  Dataset done: 1,075MB / 247.8M tokens, licence-checked. Training on Kaggle.
 - Trove newspaper integration (National Library of Australia). Trove's API
   terms don't allow building a training corpus, so this needs written
   permission from the NLA first.
-- Work through the v1 review lists (~1,300 books whose author dates still
+- Work through the v1 review lists (~900 books whose author dates still
   need checking)
+- An optional chat fine-tune on Hansard question-and-answer pairs (period
+  dialogue, not text written by a modern AI)
 - Custom tokenizer trained on Australian English
 - Temporal bias analysis
 - Eventually a proper conversational interface

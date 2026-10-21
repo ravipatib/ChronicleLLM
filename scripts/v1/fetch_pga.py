@@ -15,6 +15,11 @@ Licensing rule:
   - Authors whose note starts "scope:" (prolific, mostly non-Australian
     settings) -> "review", so they cannot swamp the corpus.
   - Titles already included from gutenberg.org, or repeated within PGA, are skipped.
+  - Review rows are then settled per title by pga_title_decisions.csv:
+    first-publication years (from the PGA page or the standard bibliography)
+    for authors who died 1946-1954, and an Australian-setting score (Australian
+    place names and bush terms per 10,000 words; London-set books score <6,
+    Australian-set ones 10-35, threshold 9.5) for the prolific authors.
 
 Inputs : PGA index https://gutenberg.net.au/gutindex_aus.txt
 Outputs: data/australia_1850_1950_v1/pga_manifest.csv
@@ -38,6 +43,7 @@ DATA_DIR   = os.path.join(REPO_DIR, "data", "australia_1850_1950_v1")
 AUTHORS    = os.path.join(DATA_DIR, "pga_authors.csv")
 GUT_MANIF  = os.path.join(DATA_DIR, "gutenberg_manifest.csv")
 OUT_PATH   = os.path.join(DATA_DIR, "pga_manifest.csv")
+DECISIONS  = os.path.join(DATA_DIR, "pga_title_decisions.csv")
 RAW_DIR    = os.path.join(DATA_DIR, "raw", "pga")
 USER_AGENT = "ChronicleLLM-dataset-builder (+https://github.com/ravipatib/ChronicleLLM)"
 DELAY_SEC  = 1.0
@@ -82,6 +88,8 @@ def main():
     authors = list(csv.DictReader(open(AUTHORS, encoding="utf-8")))
     deaths  = {r["pga_name"]: int(r["death_year"]) for r in authors}
     scoped  = {r["pga_name"] for r in authors if r["note"].startswith("scope:")}
+    settled = {r["ebook_no"]: r for r in csv.DictReader(open(DECISIONS, encoding="utf-8"))} \
+        if os.path.exists(DECISIONS) else {}
     gut_titles = {norm(r["title"])[:30] for r in csv.DictReader(open(GUT_MANIF, encoding="utf-8"))
                   if r["decision"] == "include"}
 
@@ -105,6 +113,9 @@ def main():
             decision, reason = "include", "author died <=1945: PD in AU; not URAA-restored, so PD in US"
         else:
             decision, reason = "review", "author died 1946-1954: confirm first publication <=1930"
+        if decision == "review" and ebook_no in settled:
+            decision = settled[ebook_no]["decision"]
+            reason   = settled[ebook_no]["reason"]
         seen_titles.add((key, author))
         rows.append({"ebook_no": ebook_no, "decision": decision, "reason": reason, "title": title,
                      "author": author, "death_year": death, "url": url, "status": ""})

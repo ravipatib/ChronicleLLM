@@ -1,0 +1,171 @@
+ebook_no,decision,reason,evidence
+0100061,include,first published 1925 (<=1930: US PD),"The Way Home, Heinemann 1925"
+0100071,include,first published 1929 (<=1930: US PD),"Ultima Thule, Heinemann 1929"
+0100081,include,first published 1930 (<=1930: US PD),"Here's Luck, Angus & Robertson 1930"
+0100301,exclude,first published 1932 (>1930: US copyright),"Here's Another, 1932"
+0200721,exclude,set outside Australia: 1.2 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+0200851,exclude,first published 1934 (>1930: US copyright),"Landtakers, 1934"
+0301271,exclude,first published 1936 (>1930: US copyright),"Inheritors, 1936"
+0601171,exclude,set outside Australia: 0.9 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+0601571,include,Australian setting: 46.6 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+0601581,exclude,set outside Australia: 9.2 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+0601591,include,Australian setting: 16.0 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+0601601,exclude,set outside Australia: 2.0 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+0601611,exclude,set outside Australia: 5.8 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+0601621,exclude,set outside Australia: 3.1 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+0604821,include,first published 1919 (<=1930: US PD),Out of the Silence: serialised The Argus 1919; book 1925
+0605611,include,first published 1926 (<=1930: US PD),"My Crowded Solitude, 1926"
+0606101,exclude,set outside Australia: 1.3 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+0607051,exclude,set outside Australia: 3.9 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+0607111,include,Australian setting: 16.1 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+0701011,exclude,first published 1947 (>1930: US copyright),"The Missing Angel, 1947"
+0800891,include,first published 1902 (<=1930: US PD),PGA page: Published 1902
+0800961,exclude,first published 1936 (>1930: US copyright),PGA page title: All That Swagger (1936)
+0800981,include,first published 1928 (<=1930: US PD),PGA page title: Up the Country (1928)
+0801271,exclude,first published 1931 (>1930: US copyright),"Back to Bool Bool, Blackwood 1931"
+0801281,include,first published 1930 (<=1930: US PD),PGA page: Published 1930 (Blackwood)
+0801301,exclude,first published 1933 (>1930: US copyright),PGA page: First published 1933
+0801311,exclude,first published 1931 (>1930: US copyright),"Old Blastus of Bandicoot, 1931"
+0801321,exclude,first published 1950 (>1930: US copyright),PGA page: Published 1950
+0900111,exclude,first published 1938 (>1930: US copyright),Fools' Harvest: serialised The Argus 1938; book 1939
+0900141,exclude,first published 1956 (>1930: US copyright),"Gentlemen at Gyang Gyang, 1956"
+0900281,exclude,first published 1946 (>1930: US copyright),PGA page: First published 1946
+0900701,exclude,first published 1954 (>1930: US copyright),"Cockatoos, 1954"
+1100681,exclude,set outside Australia: 2.1 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1306031,include,first published 1918 (<=1930: US PD),PGA page: serialised The World's News from 9 March 1918; book 1919
+1402121,exclude,first published 1935 (>1930: US copyright),PGA page: serialised from 6 February 1935
+1402731,include,first published 1923 (<=1930: US PD),PGA page: book Angus & Robertson 1923 (serialised earlier)
+1402761,include,first published 1917 (<=1930: US PD),PGA page: serialised The World's News from 19 May 1917; book 1919
+1402821,include,first published 1928 (<=1930: US PD),PGA page: Robertson & Mullens 1928
+1402831,include,first published 1930 (<=1930: US PD),PGA page: Published 1930
+1500211,exclude,first published 1939 (>1930: US copyright),PGA page: Published 1939
+1700041,exclude,set outside Australia: 0.8 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700051,exclude,set outside Australia: 0.8 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700071,exclude,set outside Australia: 1.1 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700081,exclude,set outside Australia: 0.5 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700101,exclude,set outside Australia: 2.7 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700121,exclude,set outside Australia: 0.7 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700131,exclude,set outside Australia: 1.9 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700151,exclude,set outside Australia: 1.3 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700211,exclude,set outside Australia: 1.5 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700221,exclude,set outside Australia: 2.2 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700231,exclude,set outside Australia: 0.7 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700241,exclude,set outside Australia: 1.0 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700251,exclude,set outside Australia: 1.0 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700261,exclude,set outside Australia: 0.9 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700271,exclude,set outside Australia: 1.8 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700281,exclude,set outside Australia: 1.1 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700291,exclude,set outside Australia: 1.0 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700301,include,Australian setting: 12.1 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700311,exclude,set outside Australia: 2.2 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700331,exclude,set outside Australia: 4.0 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700341,exclude,set outside Australia: 2.3 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700351,exclude,set outside Australia: 1.6 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700411,exclude,set outside Australia: 0.8 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700501,include,Australian setting: 17.1 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700531,exclude,set outside Australia: 5.8 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700601,exclude,set outside Australia: 1.4 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700671,exclude,set outside Australia: 1.2 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700681,include,Australian setting: 25.3 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700691,exclude,set outside Australia: 1.1 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700701,exclude,set outside Australia: 4.0 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700721,exclude,set outside Australia: 1.1 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700741,exclude,set outside Australia: 1.1 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700771,exclude,set outside Australia: 0.9 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700781,exclude,set outside Australia: 1.2 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700801,include,first published 1923 (<=1930: US PD),"PGA page: Moora Herald, June 1923"
+1700811,exclude,set outside Australia: 2.0 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700821,exclude,first published 1931 (>1930: US copyright),PGA page: earliest serial 1 April 1931
+1700831,exclude,first published 1933 (>1930: US copyright),PGA page: Australian newspapers 1933
+1700851,exclude,set outside Australia: 1.2 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700861,include,first published 1928 (<=1930: US PD),"PGA page: Queensland Times, 29 September 1928"
+1700901,exclude,first published 1931 (>1930: US copyright),"PGA page: The Argus, 6 January 1931"
+1700911,exclude,set outside Australia: 0.7 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700921,exclude,set outside Australia: 1.4 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1700931,exclude,first published 1934 (>1930: US copyright),"PGA page: Kyogle Examiner, 26 January 1934"
+1700941,exclude,first published 1931 (>1930: US copyright),"PGA page: Grenfell Record, 4 June 1931"
+1700951,include,first published 1930 (<=1930: US PD),"PGA page: Lithgow Mercury, 25 July 1930"
+1700961,exclude,first published 1935 (>1930: US copyright),"PGA page: Cessnock Eagle, 25 January 1935"
+1700971,exclude,first published 1935 (>1930: US copyright),"PGA page: Sydney Morning Herald, 25 January 1935"
+1700981,exclude,first published 1932 (>1930: US copyright),"PGA page: Gloucester Advocate, 5 July 1932"
+1700991,include,first published 1930 (<=1930: US PD),"PGA page: The World's News, 19 February 1930"
+1701001,include,first published 1926 (<=1930: US PD),"PGA page: NSW Bookstall Co, 1926"
+1701041,include,first published 1928 (<=1930: US PD),"PGA page: Smith's Weekly, 28 January 1928"
+1701051,include,first published 1929 (<=1930: US PD),"PGA page: Riverina Recorder, 29 June 1929"
+1701061,exclude,first published 1931 (>1930: US copyright),"PGA page: The World's News, 22 April 1931"
+1701081,exclude,first published 1931 (>1930: US copyright),"PGA page: Queensland Times, 21 January 1931"
+1701111,exclude,set outside Australia: 2.5 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1701121,exclude,set outside Australia: 1.1 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1701131,include,first published 1926 (<=1930: US PD),"PGA page: The World's News, 19 June 1926"
+1701141,include,first published 1927 (<=1930: US PD),"PGA page: The World's News, 2 July 1927"
+1701151,exclude,first published 1933 (>1930: US copyright),"PGA page: Albury Banner, 13 January 1933"
+1701161,exclude,set outside Australia: 0.8 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1701171,include,first published 1920 (<=1930: US PD),"PGA page: Bunbury Herald, 24 January 1920"
+1701181,exclude,first published 1933 (>1930: US copyright),"PGA page: Northern Herald, 7 January 1933"
+1701191,exclude,set outside Australia: 1.0 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1701201,exclude,set outside Australia: 4.0 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1701211,exclude,set outside Australia: 0.9 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1701241,include,first published 1927 (<=1930: US PD),"PGA page: Cornstalk Publishing Co, 1927"
+1701251,include,Australian setting: 33.7 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1701261,include,first published 1930 (<=1930: US PD),"PGA page: The Labor Daily, 22 November 1930"
+1701281,exclude,set outside Australia: 1.1 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1701311,exclude,set outside Australia: 0.8 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1701321,exclude,set outside Australia: 1.2 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1701331,exclude,set outside Australia: 1.0 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1701341,exclude,set outside Australia: 4.8 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800011,exclude,set outside Australia: 5.7 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800021,include,Australian setting: 18.9 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800031,include,Australian setting: 25.5 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800041,exclude,set outside Australia: 7.3 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800061,include,Australian setting: 20.7 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800071,include,Australian setting: 18.4 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800121,exclude,set outside Australia: 1.8 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800141,exclude,set outside Australia: 1.4 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800151,exclude,set outside Australia: 1.0 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800161,include,Australian setting: 11.7 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800191,exclude,set outside Australia: 1.4 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800201,exclude,set outside Australia: 2.0 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800211,include,Australian setting: 9.7 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800251,include,Australian setting: 14.9 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800261,include,Australian setting: 15.9 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800271,include,Australian setting: 24.2 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800281,include,Australian setting: 12.5 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800291,exclude,set outside Australia: 8.9 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800301,include,first published 1920 (<=1930: US PD),"PGA page: Bunbury Herald, 28 May 1920"
+1800311,include,Australian setting: 15.4 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800371,exclude,set outside Australia: 2.4 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800391,exclude,set outside Australia: 1.5 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800421,exclude,set outside Australia: 0.9 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800441,exclude,set outside Australia: 3.6 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800451,exclude,set outside Australia: 2.5 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800461,exclude,set outside Australia: 1.2 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800481,exclude,set outside Australia: 1.0 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800501,exclude,set outside Australia: 1.8 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800511,exclude,set outside Australia: 1.1 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800521,exclude,set outside Australia: 1.1 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800541,exclude,set outside Australia: 1.2 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800561,exclude,set outside Australia: 0.6 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800571,exclude,set outside Australia: 4.0 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800591,exclude,set outside Australia: 1.0 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800601,include,Australian setting: 30.1 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800621,exclude,set outside Australia: 1.0 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800631,exclude,set outside Australia: 0.9 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800701,exclude,set outside Australia: 1.1 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800761,exclude,set outside Australia: 1.6 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800791,exclude,set outside Australia: 2.7 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800841,exclude,set outside Australia: 1.5 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800861,exclude,set outside Australia: 1.7 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800881,exclude,set outside Australia: 4.9 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800901,exclude,set outside Australia: 0.9 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800911,exclude,set outside Australia: 0.9 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800921,exclude,set outside Australia: 1.2 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1800961,exclude,set outside Australia: 2.0 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1900101,exclude,set outside Australia: 1.1 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1900181,include,first published 1919 (<=1930: US PD),"PGA page: Judd Publishing Co, 1919"
+1900231,exclude,set outside Australia: 1.5 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+1900891,include,first published 1919 (<=1930: US PD),PGA page: Published 1919
+1901071,exclude,set outside Australia: 0.9 Australian terms per 10k words (threshold 9.5),scored from the PGA text
+2100521,include,first published 1912 (<=1930: US PD),"PGA page: The Cavalier, April 1912"
+2100531,include,first published 1912 (<=1930: US PD),"PGA page: The American Magazine, February 1912"
+2200011,include,first published 1913 (<=1930: US PD),"PGA page: The Cavalier, May 1913"
+2200261,include,first published 1915 (<=1930: US PD),"PGA page: A. C. McClurg, Chicago, 1915"
